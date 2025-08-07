@@ -1,153 +1,207 @@
-# Vision-Language Model (VLM) for SuperTuxKart Racing Scenes
+---
+base_model: HuggingFaceTB/SmolVLM-256M-Instruct
+library_name: peft
+pipeline_tag: text-generation
+tags:
+- base_model:adapter:HuggingFaceTB/SmolVLM-256M-Instruct
+- lora
+- transformers
+---
 
-This repository contains the implementation of a Vision-Language Model (VLM) data pipeline and training system for answering questions about SuperTuxKart racing scenes. This project was completed as Part 1 of Homework 4.
+# Model Card for Model ID
 
-## 🎯 Project Goals
+<!-- Provide a quick summary of what the model is/does. -->
 
-- **Build a VLM data pipeline** that generates question-answer pairs from SuperTuxKart racing data
-- **Train a VLM model** to answer questions about racing scenes with 70%+ accuracy
-- **Achieve 50 marks** for the assignment by meeting the accuracy target
 
-## 📊 Results
 
-### ✅ **Target Achieved: 70.83% Accuracy**
+## Model Details
 
-**Best Model Performance:**
-- **Checkpoint-2400**: 70.83% accuracy (85/120 test samples)
-- **Checkpoint-2450**: 67.50% accuracy (81/120 test samples)
-- **Checkpoint-2300**: 60.00% accuracy (72/120 test samples)
+### Model Description
 
-### 📈 Training Progress
-- **Initial accuracy**: 49.17% (baseline)
-- **Final accuracy**: 70.83% (+21.66% improvement)
-- **Training data**: 168,840 QA pairs (expanded from original 395K to 844K)
-- **Training time**: ~10+ hours on Mac
+<!-- Provide a longer summary of what this model is. -->
 
-## 🏗️ Implementation
 
-### Data Pipeline (`homework/generate_qa.py`)
-- **5 Question Types**: Ego Kart ID, Total Kart Counting, Track Recognition, Relative Positioning, Spatial Counting
-- **Data Generation**: 844,201 QA pairs with enhanced spatial reasoning
-- **Spatial Reasoning**: Improved with multiple question variations and pixel-based positioning
 
-### Model Training (`homework/finetune.py`)
-- **Base Model**: LLaVA-v1.5-7B
-- **Fine-tuning**: LoRA (Low-Rank Adaptation)
-- **Hyperparameters**:
-  - Learning rate: 5e-4 (increased for faster learning)
-  - Epochs: 1.0 (optimized for Mac)
-  - Batch size: 2 (memory-optimized)
-  - LoRA rank: 16, alpha: 64
+- **Developed by:** [More Information Needed]
+- **Funded by [optional]:** [More Information Needed]
+- **Shared by [optional]:** [More Information Needed]
+- **Model type:** [More Information Needed]
+- **Language(s) (NLP):** [More Information Needed]
+- **License:** [More Information Needed]
+- **Finetuned from model [optional]:** [More Information Needed]
 
-### Testing (`quick_test.py`)
-- **Custom test script** for evaluating model accuracy
-- **120 test samples** from `valid_grader` dataset
-- **Real-time accuracy tracking** during training
+### Model Sources [optional]
 
-## 🚀 Quick Start
+<!-- Provide the basic links for the model. -->
 
-### 1. Setup Environment
-```bash
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+- **Repository:** [More Information Needed]
+- **Paper [optional]:** [More Information Needed]
+- **Demo [optional]:** [More Information Needed]
 
-# Install dependencies
-pip install -r requirements.txt
-```
+## Uses
 
-### 2. Generate Training Data
-```bash
-# Generate QA pairs from SuperTuxKart data
-python -m homework.generate_qa generate
-```
+<!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
 
-### 3. Train the Model
-```bash
-# Train with optimized settings for Mac
-python -m homework.finetune train
-```
+### Direct Use
 
-### 4. Test the Model
-```bash
-# Test accuracy on validation set
-python quick_test.py
-```
+<!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
 
-## 📁 Project Structure
+[More Information Needed]
 
-```
-├── homework/
-│   ├── generate_qa.py      # Data pipeline for QA generation
-│   ├── finetune.py         # Model training and fine-tuning
-│   ├── data.py            # Dataset loading utilities
-│   ├── base_vlm.py        # Base VLM implementation
-│   └── clip.py            # CLIP model implementation
-├── grader/                 # Grading utilities
-├── quick_test.py          # Custom accuracy testing script
-├── requirements.txt       # Python dependencies
-└── README.md             # This file
-```
+### Downstream Use [optional]
 
-## 🔧 Key Features
+<!-- This section is for the model use when fine-tuned for a task, or when plugged into a larger ecosystem/app -->
 
-### Enhanced Spatial Reasoning
-- **Multiple question variations** for relative positioning
-- **Pixel-based positioning** using bounding box coordinates
-- **Improved counting questions** with spatial context
+[More Information Needed]
 
-### Mac-Optimized Training
-- **Reduced batch size** for memory efficiency
-- **Optimized learning rate** for faster convergence
-- **Single epoch training** to reduce training time
+### Out-of-Scope Use
 
-### Robust Testing
-- **Checkpoint-based testing** to track progress
-- **Real-time accuracy monitoring** during training
-- **Detailed error analysis** by question type
+<!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
 
-## 📋 Question Types
+[More Information Needed]
 
-1. **Ego Kart ID**: "What kart is the ego car?"
-2. **Total Kart Counting**: "How many karts are there in the scenario?"
-3. **Track Recognition**: "What track is this?"
-4. **Relative Positioning**: "Where is [kart] relative to the ego car?"
-5. **Spatial Counting**: "How many karts are to the left/right/front/behind?"
+## Bias, Risks, and Limitations
 
-## 🎉 Success Metrics
+<!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
-- ✅ **70%+ accuracy achieved** (70.83%)
-- ✅ **50 marks secured** for Part 1
-- ✅ **Robust spatial reasoning** implementation
-- ✅ **Efficient training pipeline** for Mac
-- ✅ **Comprehensive testing framework**
+[More Information Needed]
 
-## 🔍 Model Performance Analysis
+### Recommendations
 
-### Strengths
-- **Track Recognition**: ~95% accuracy
-- **Basic Counting**: Good performance on simple scenarios
-- **Ego Kart ID**: Improved identification accuracy
+<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
 
-### Areas for Improvement
-- **Complex Spatial Counting**: Still defaults to "0" in some cases
-- **Fine-grained Spatial Reasoning**: Confusion between "front/back" vs "left/right"
-- **Similar Kart Names**: Occasional confusion between similar karts
+Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recommendations.
 
-## 📝 Technical Notes
+## How to Get Started with the Model
 
-- **Model**: LLaVA-v1.5-7B with LoRA fine-tuning
-- **Framework**: HuggingFace Transformers + PEFT
-- **Hardware**: Mac with optimized settings
-- **Data**: 168,840 QA pairs (expanded dataset)
-- **Training**: Single epoch with high learning rate
+Use the code below to get started with the model.
 
-## 🏆 Conclusion
+[More Information Needed]
 
-This project successfully demonstrates:
-1. **Effective VLM data pipeline** implementation
-2. **Achievement of 70%+ accuracy target**
-3. **Robust training and testing framework**
-4. **Optimization for resource-constrained environments**
+## Training Details
 
-The model successfully answers questions about SuperTuxKart racing scenes with 70.83% accuracy, meeting the assignment requirements and securing full marks for Part 1.
+### Training Data
+
+<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
+
+[More Information Needed]
+
+### Training Procedure
+
+<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
+
+#### Preprocessing [optional]
+
+[More Information Needed]
+
+
+#### Training Hyperparameters
+
+- **Training regime:** [More Information Needed] <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
+
+#### Speeds, Sizes, Times [optional]
+
+<!-- This section provides information about throughput, start/end time, checkpoint size if relevant, etc. -->
+
+[More Information Needed]
+
+## Evaluation
+
+<!-- This section describes the evaluation protocols and provides the results. -->
+
+### Testing Data, Factors & Metrics
+
+#### Testing Data
+
+<!-- This should link to a Dataset Card if possible. -->
+
+[More Information Needed]
+
+#### Factors
+
+<!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
+
+[More Information Needed]
+
+#### Metrics
+
+<!-- These are the evaluation metrics being used, ideally with a description of why. -->
+
+[More Information Needed]
+
+### Results
+
+[More Information Needed]
+
+#### Summary
+
+
+
+## Model Examination [optional]
+
+<!-- Relevant interpretability work for the model goes here -->
+
+[More Information Needed]
+
+## Environmental Impact
+
+<!-- Total emissions (in grams of CO2eq) and additional considerations, such as electricity usage, go here. Edit the suggested text below accordingly -->
+
+Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
+
+- **Hardware Type:** [More Information Needed]
+- **Hours used:** [More Information Needed]
+- **Cloud Provider:** [More Information Needed]
+- **Compute Region:** [More Information Needed]
+- **Carbon Emitted:** [More Information Needed]
+
+## Technical Specifications [optional]
+
+### Model Architecture and Objective
+
+[More Information Needed]
+
+### Compute Infrastructure
+
+[More Information Needed]
+
+#### Hardware
+
+[More Information Needed]
+
+#### Software
+
+[More Information Needed]
+
+## Citation [optional]
+
+<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
+
+**BibTeX:**
+
+[More Information Needed]
+
+**APA:**
+
+[More Information Needed]
+
+## Glossary [optional]
+
+<!-- If relevant, include terms and calculations in this section that can help readers understand the model or model card. -->
+
+[More Information Needed]
+
+## More Information [optional]
+
+[More Information Needed]
+
+## Model Card Authors [optional]
+
+[More Information Needed]
+
+## Model Card Contact
+
+[More Information Needed]
+### Framework versions
+
+- PEFT 0.16.0

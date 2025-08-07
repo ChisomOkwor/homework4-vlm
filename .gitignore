@@ -26,7 +26,8 @@ env/
 ENV/
 
 # Model checkpoints and logs (exclude large files)
-homework/vlm_sft/
+homework/vlm_sft/checkpoint-*/
+homework/vlm_sft/tensorboard/
 *.tfevents.*
 data/valid/*.jpg
 data/valid/*.json
@@ -48,9 +49,9 @@ Thumbs.db
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# PyTorch
-*.pth
-*.pt
+# PyTorch (allow checkpoint files)
+# *.pth
+# *.pt
 
 # Logs
 *.log
