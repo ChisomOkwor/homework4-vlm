@@ -91,12 +91,17 @@ class AccuracyEarlyStoppingCallback(TrainerCallback):
             return 0.0
 
 
-def load(model_name: str = "vlm_model") -> BaseVLM:
+def load(model_name: str = "vlm_sft") -> BaseVLM:
     from pathlib import Path
 
     from peft import PeftModel
 
     model_path = Path(__file__).parent / model_name
+    
+    # Use the best checkpoint if available
+    checkpoint_path = model_path / "checkpoint-2700"
+    if checkpoint_path.exists():
+        model_path = checkpoint_path
 
     vlm = BaseVLM()
     vlm.model = PeftModel.from_pretrained(vlm.model, model_path).to(vlm.device)
