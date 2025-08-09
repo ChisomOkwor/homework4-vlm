@@ -1,0 +1,4802 @@
+[
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000d9_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is scotland.",
+      "There are 9 karts in the scene.",
+      "gavroche is the ego car.",
+      "The track is gran_paradiso_island.",
+      "The track is cornfield_crossing."
+    ],
+    "correct_index": 2,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.3046875,
+    "similarities": [
+      0.17578125,
+      0.14453125,
+      0.400390625,
+      0.7578125,
+      0.032958984375
+    ],
+    "correct_similarity": 0.400390625,
+    "predicted_similarity": 0.7578125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00042_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "konqi is the ego car.",
+      "There are 7 karts in the scene.",
+      "The track is sandtrack.",
+      "The track is hacienda.",
+      "konqi is in front of the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.345703125,
+    "similarities": [
+      0.107421875,
+      0.875,
+      0.039794921875,
+      0.06298828125,
+      1.0859375
+    ],
+    "correct_similarity": 1.0859375,
+    "predicted_similarity": 1.0859375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000b2_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "nolok is the ego car.",
+      "The track is xr591.",
+      "puffy is the ego car.",
+      "The track is fortmagma.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.42578125,
+    "similarities": [
+      -0.08740234375,
+      -0.025146484375,
+      -0.2021484375,
+      0.06298828125,
+      1.03125
+    ],
+    "correct_similarity": 1.03125,
+    "predicted_similarity": 1.03125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000ee_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is sandtrack.",
+      "There are 1 karts in the scene.",
+      "The track is hacienda.",
+      "The track is zengarden.",
+      "There are 6 karts in the scene."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.310546875,
+    "similarities": [
+      0.07958984375,
+      0.9296875,
+      0.10205078125,
+      -0.0830078125,
+      0.9140625
+    ],
+    "correct_similarity": 0.9296875,
+    "predicted_similarity": 0.9296875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000f7_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "suzanne is the ego car.",
+      "The track is xr591.",
+      "The track is tutorial.",
+      "kiki is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 3,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.3125,
+    "similarities": [
+      0.08740234375,
+      0.00171661376953125,
+      0.35546875,
+      -0.03369140625,
+      0.71484375
+    ],
+    "correct_similarity": -0.03369140625,
+    "predicted_similarity": 0.71484375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00095_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "suzanne is the ego car.",
+      "The track is cocoa_temple.",
+      "xue is right of the ego car.",
+      "gnu is in front of the ego car.",
+      "konqi is in front of the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.3125,
+    "similarities": [
+      0.171875,
+      -0.14453125,
+      0.4453125,
+      1.0859375,
+      1.0703125
+    ],
+    "correct_similarity": 0.4453125,
+    "predicted_similarity": 1.0859375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00079_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "sara_the_wizard is behind the ego car.",
+      "The track is zengarden.",
+      "The track is snowtuxpeak.",
+      "hexley is behind the ego car.",
+      "The track is cornfield_crossing."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.302734375,
+    "similarities": [
+      0.859375,
+      0.30078125,
+      0.37109375,
+      0.40234375,
+      0.1240234375
+    ],
+    "correct_similarity": 0.859375,
+    "predicted_similarity": 0.859375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00085_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is cocoa_temple.",
+      "The track is candela_city.",
+      "There are 8 karts in the scene.",
+      "tux is the ego car.",
+      "sara_the_racer is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.318359375,
+    "similarities": [
+      -0.047119140625,
+      0.0106201171875,
+      0.2578125,
+      0.03955078125,
+      0.69921875
+    ],
+    "correct_similarity": 0.69921875,
+    "predicted_similarity": 0.69921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00065_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "amanda is left of the ego car.",
+      "The track is zengarden.",
+      "amanda is right of the ego car.",
+      "konqi is right of the ego car.",
+      "The track is sandtrack."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.296875,
+    "similarities": [
+      0.9765625,
+      0.006134033203125,
+      0.984375,
+      0.5234375,
+      0.01556396484375
+    ],
+    "correct_similarity": 0.984375,
+    "predicted_similarity": 0.984375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00051_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "beastie is the ego car.",
+      "The track is snowmountain.",
+      "gavroche is the ego car.",
+      "wilber is the ego car.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.375,
+    "similarities": [
+      -0.06396484375,
+      0.0791015625,
+      0.0830078125,
+      -0.1318359375,
+      0.8671875
+    ],
+    "correct_similarity": 0.8671875,
+    "predicted_similarity": 0.8671875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000ae_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is volcano_island.",
+      "The track is candela_city.",
+      "sara_the_racer is the ego car.",
+      "suzanne is the ego car.",
+      "The track is black_forest."
+    ],
+    "correct_index": 0,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.408203125,
+    "similarities": [
+      -0.0751953125,
+      0.1953125,
+      1.0703125,
+      0.1201171875,
+      -0.055419921875
+    ],
+    "correct_similarity": -0.0751953125,
+    "predicted_similarity": 1.0703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00005_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "pidgin is the ego car.",
+      "gavroche is the ego car.",
+      "The track is minigolf.",
+      "The track is abyss."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.365234375,
+    "similarities": [
+      0.83203125,
+      0.0291748046875,
+      -0.0203857421875,
+      0.08251953125,
+      -0.095703125
+    ],
+    "correct_similarity": 0.83203125,
+    "predicted_similarity": 0.83203125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000d7_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "The track is tutorial.",
+      "There are 6 karts in the scene.",
+      "suzanne is the ego car.",
+      "The track is fortmagma."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.3046875,
+    "similarities": [
+      0.9296875,
+      0.08935546875,
+      0.921875,
+      0.1591796875,
+      -0.004150390625
+    ],
+    "correct_similarity": 0.9296875,
+    "predicted_similarity": 0.9296875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00052_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "gnu is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "xue is the ego car.",
+      "The track is sandtrack.",
+      "puffy is behind the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.365234375,
+    "similarities": [
+      0.32421875,
+      1.109375,
+      0.265625,
+      0.1982421875,
+      0.310546875
+    ],
+    "correct_similarity": 0.310546875,
+    "predicted_similarity": 1.109375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00028_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is candela_city.",
+      "There are 1 karts in the scene.",
+      "There are 2 karts in the scene.",
+      "There are 8 karts in the scene.",
+      "kiki is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.259765625,
+    "similarities": [
+      0.0439453125,
+      0.93359375,
+      0.94921875,
+      0.921875,
+      0.224609375
+    ],
+    "correct_similarity": 0.93359375,
+    "predicted_similarity": 0.94921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00089_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 0 karts in the scene.",
+      "The track is lighthouse.",
+      "There are 4 karts in the scene.",
+      "The track is scotland.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.265625,
+    "similarities": [
+      0.9140625,
+      -0.1337890625,
+      0.93359375,
+      0.1787109375,
+      0.94921875
+    ],
+    "correct_similarity": 0.94921875,
+    "predicted_similarity": 0.94921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00019_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "kiki is in front of the ego car.",
+      "The track is cornfield_crossing.",
+      "wilber is the ego car.",
+      "The track is tutorial.",
+      "suzanne is right of the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.3515625,
+    "similarities": [
+      0.5546875,
+      -0.33203125,
+      -0.302734375,
+      0.28515625,
+      0.8984375
+    ],
+    "correct_similarity": 0.5546875,
+    "predicted_similarity": 0.8984375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00012_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "emule is the ego car.",
+      "The track is ravenbridge_mansion.",
+      "puffy is the ego car.",
+      "The track is abyss.",
+      "sara_the_wizard is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.40234375,
+    "similarities": [
+      0.2060546875,
+      -0.1357421875,
+      0.1015625,
+      0.05126953125,
+      1.0546875
+    ],
+    "correct_similarity": 0.05126953125,
+    "predicted_similarity": 1.0546875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00076_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is lighthouse.",
+      "The track is ravenbridge_mansion.",
+      "nolok is the ego car.",
+      "pidgin is the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.345703125,
+    "similarities": [
+      -0.2197265625,
+      0.76171875,
+      -0.138671875,
+      0.0576171875,
+      0.94921875
+    ],
+    "correct_similarity": 0.0576171875,
+    "predicted_similarity": 0.94921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000ff_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is black_forest.",
+      "The track is candela_city.",
+      "The track is snowtuxpeak.",
+      "There are 5 karts in the scene.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.34375,
+    "similarities": [
+      -0.140625,
+      0.1240234375,
+      0.10205078125,
+      1.0234375,
+      1.125
+    ],
+    "correct_similarity": 1.125,
+    "predicted_similarity": 1.125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0003b_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "hexley is the ego car.",
+      "The track is cocoa_temple.",
+      "The track is fortmagma.",
+      "adiumy is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.322265625,
+    "similarities": [
+      0.27734375,
+      0.02880859375,
+      0.103515625,
+      0.1435546875,
+      0.78125
+    ],
+    "correct_similarity": 0.78125,
+    "predicted_similarity": 0.78125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000f4_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "The track is hacienda.",
+      "sara_the_wizard is the ego car.",
+      "The track is olivermath.",
+      "The track is fortmagma."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.40234375,
+    "similarities": [
+      0.10302734375,
+      0.095703125,
+      1.078125,
+      0.041015625,
+      0.10791015625
+    ],
+    "correct_similarity": 1.078125,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000f5_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "xue is left of the ego car.",
+      "tux is the ego car.",
+      "There are 9 karts in the scene.",
+      "konqi is the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 0,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.373046875,
+    "similarities": [
+      0.48828125,
+      0.173828125,
+      1.0234375,
+      -0.1953125,
+      0.0400390625
+    ],
+    "correct_similarity": 0.48828125,
+    "predicted_similarity": 1.0234375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000aa_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "The track is olivermath.",
+      "The track is cocoa_temple.",
+      "xue is the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.298828125,
+    "similarities": [
+      0.796875,
+      -0.1376953125,
+      0.84375,
+      0.470703125,
+      -0.251953125
+    ],
+    "correct_similarity": 0.84375,
+    "predicted_similarity": 0.84375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000bb_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is tutorial.",
+      "wilber is behind the ego car.",
+      "The track is scotland.",
+      "The track is candela_city.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.3984375,
+    "similarities": [
+      0.1591796875,
+      0.9140625,
+      -0.2001953125,
+      -0.228515625,
+      -0.01458740234375
+    ],
+    "correct_similarity": -0.01458740234375,
+    "predicted_similarity": 0.9140625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000e5_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "sara_the_racer is the ego car.",
+      "There are 1 karts in the scene.",
+      "tux is the ego car.",
+      "The track is lighthouse.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 1,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.384765625,
+    "similarities": [
+      1.0546875,
+      0.11083984375,
+      0.26953125,
+      0.0174560546875,
+      0.150390625
+    ],
+    "correct_similarity": 0.11083984375,
+    "predicted_similarity": 1.0546875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00009_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is volcano_island.",
+      "The track is ravenbridge_mansion.",
+      "There are 7 karts in the scene.",
+      "beastie is the ego car.",
+      "The track is zengarden."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.384765625,
+    "similarities": [
+      0.07421875,
+      0.57421875,
+      1.078125,
+      -0.248046875,
+      0.07373046875
+    ],
+    "correct_similarity": 0.07373046875,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000c5_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "beastie is the ego car.",
+      "adiumy is the ego car.",
+      "xue is the ego car.",
+      "kiki is the ego car.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 1,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.41796875,
+    "similarities": [
+      -0.2578125,
+      -0.0439453125,
+      0.267578125,
+      0.01007080078125,
+      1.0703125
+    ],
+    "correct_similarity": -0.0439453125,
+    "predicted_similarity": 1.0703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00084_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "kiki is the ego car.",
+      "The track is snowmountain.",
+      "The track is tutorial.",
+      "There are 2 karts in the scene.",
+      "The track is minigolf."
+    ],
+    "correct_index": 1,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.361328125,
+    "similarities": [
+      0.12890625,
+      0.032958984375,
+      0.0159912109375,
+      0.8828125,
+      0.07421875
+    ],
+    "correct_similarity": 0.032958984375,
+    "predicted_similarity": 0.8828125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000a1_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is fortmagma.",
+      "The track is zengarden.",
+      "The track is sandtrack.",
+      "amanda is the ego car.",
+      "emule is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.30859375,
+    "similarities": [
+      0.055908203125,
+      0.77734375,
+      -0.0791015625,
+      0.474609375,
+      0.251953125
+    ],
+    "correct_similarity": 0.77734375,
+    "predicted_similarity": 0.77734375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000ef_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is volcano_island.",
+      "The track is snowtuxpeak.",
+      "sara_the_wizard is the ego car.",
+      "The track is scotland.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.376953125,
+    "similarities": [
+      -0.06884765625,
+      0.3125,
+      1.046875,
+      0.2041015625,
+      0.1552734375
+    ],
+    "correct_similarity": 0.1552734375,
+    "predicted_similarity": 1.046875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000a9_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "beastie is the ego car.",
+      "puffy is in front of the ego car.",
+      "The track is zengarden.",
+      "The track is overworld.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.36328125,
+    "similarities": [
+      0.07763671875,
+      1.0703125,
+      0.11962890625,
+      0.19140625,
+      0.52734375
+    ],
+    "correct_similarity": 1.0703125,
+    "predicted_similarity": 1.0703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0009c_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "beastie is the ego car.",
+      "There are 6 karts in the scene.",
+      "The track is fortmagma.",
+      "There are 5 karts in the scene.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.28515625,
+    "similarities": [
+      -0.3046875,
+      0.94921875,
+      0.047119140625,
+      0.921875,
+      1.0078125
+    ],
+    "correct_similarity": 1.0078125,
+    "predicted_similarity": 1.0078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00078_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is cornfield_crossing.",
+      "The track is gran_paradiso_island.",
+      "The track is candela_city.",
+      "amanda is the ego car.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.31640625,
+    "similarities": [
+      0.06494140625,
+      0.78515625,
+      0.251953125,
+      0.1767578125,
+      0.1845703125
+    ],
+    "correct_similarity": 0.78515625,
+    "predicted_similarity": 0.78515625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0000f_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is minigolf.",
+      "The track is scotland.",
+      "There are 7 karts in the scene.",
+      "The track is cornfield_crossing.",
+      "The track is fortmagma."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.3984375,
+    "similarities": [
+      0.1455078125,
+      0.208984375,
+      1.046875,
+      -0.2373046875,
+      0.126953125
+    ],
+    "correct_similarity": 0.126953125,
+    "predicted_similarity": 1.046875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000d5_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "The track is cornfield_crossing.",
+      "beastie is right of the ego car.",
+      "The track is xr591.",
+      "The track is zengarden."
+    ],
+    "correct_index": 0,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.359375,
+    "similarities": [
+      0.9609375,
+      -0.189453125,
+      1.078125,
+      -0.1552734375,
+      -0.037109375
+    ],
+    "correct_similarity": 0.9609375,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00094_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is cocoa_temple.",
+      "wilber is the ego car.",
+      "adiumy is the ego car.",
+      "konqi is the ego car.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.369140625,
+    "similarities": [
+      -0.10791015625,
+      -0.0927734375,
+      0.248046875,
+      0.173828125,
+      0.921875
+    ],
+    "correct_similarity": 0.173828125,
+    "predicted_similarity": 0.921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000e8_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "konqi is the ego car.",
+      "The track is lighthouse.",
+      "There are 4 karts in the scene.",
+      "tux is the ego car.",
+      "The track is candela_city."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.37109375,
+    "similarities": [
+      0.1162109375,
+      -0.240234375,
+      0.9140625,
+      0.298828125,
+      -0.0478515625
+    ],
+    "correct_similarity": -0.0478515625,
+    "predicted_similarity": 0.9140625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00096_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is gran_paradiso_island.",
+      "The track is cocoa_temple.",
+      "emule is the ego car.",
+      "There are 1 karts in the scene.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.3125,
+    "similarities": [
+      0.765625,
+      0.0238037109375,
+      0.216796875,
+      0.126953125,
+      0.29296875
+    ],
+    "correct_similarity": 0.126953125,
+    "predicted_similarity": 0.765625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00099_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 4 karts in the scene.",
+      "The track is cocoa_temple.",
+      "pidgin is the ego car.",
+      "emule is in front of the ego car.",
+      "xue is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.302734375,
+    "similarities": [
+      0.9765625,
+      0.031494140625,
+      0.1279296875,
+      0.99609375,
+      0.330078125
+    ],
+    "correct_similarity": 0.99609375,
+    "predicted_similarity": 0.99609375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000b7_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "konqi is the ego car.",
+      "konqi is left of the ego car.",
+      "wilber is the ego car.",
+      "konqi is behind the ego car.",
+      "The track is volcano_island."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.447265625,
+    "similarities": [
+      -0.2109375,
+      1.078125,
+      -0.06591796875,
+      0.1455078125,
+      -0.3046875
+    ],
+    "correct_similarity": 1.078125,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00030_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "suzanne is left of the ego car.",
+      "sara_the_wizard is the ego car.",
+      "There are 0 karts in the scene.",
+      "amanda is left of the ego car.",
+      "The track is overworld."
+    ],
+    "correct_index": 0,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.39453125,
+    "similarities": [
+      -0.12451171875,
+      1.0078125,
+      0.03759765625,
+      0.031494140625,
+      0.2333984375
+    ],
+    "correct_similarity": -0.12451171875,
+    "predicted_similarity": 1.0078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000e7_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is fortmagma.",
+      "The track is lighthouse.",
+      "There are 1 karts in the scene.",
+      "The track is ravenbridge_mansion.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.32421875,
+    "similarities": [
+      0.0174560546875,
+      -0.19140625,
+      0.93359375,
+      0.7890625,
+      0.2265625
+    ],
+    "correct_similarity": 0.93359375,
+    "predicted_similarity": 0.93359375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000ac_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is lighthouse.",
+      "konqi is the ego car.",
+      "The track is abyss.",
+      "nolok is the ego car.",
+      "There are 7 karts in the scene."
+    ],
+    "correct_index": 0,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.4453125,
+    "similarities": [
+      -0.13671875,
+      -0.18359375,
+      0.0576171875,
+      -0.054443359375,
+      1.09375
+    ],
+    "correct_similarity": -0.13671875,
+    "predicted_similarity": 1.09375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00021_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "adiumy is in front of the ego car.",
+      "konqi is the ego car.",
+      "The track is abyss.",
+      "The track is snowmountain.",
+      "emule is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.375,
+    "similarities": [
+      0.94140625,
+      0.10107421875,
+      -0.06005859375,
+      0.0634765625,
+      0.1484375
+    ],
+    "correct_similarity": 0.94140625,
+    "predicted_similarity": 0.94140625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00093_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is candela_city.",
+      "emule is in front of the ego car.",
+      "xue is in front of the ego car.",
+      "sara_the_wizard is left of the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.373046875,
+    "similarities": [
+      0.2265625,
+      0.123046875,
+      0.1376953125,
+      1.0703125,
+      0.30078125
+    ],
+    "correct_similarity": 1.0703125,
+    "predicted_similarity": 1.0703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0007f_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is tutorial.",
+      "nolok is the ego car.",
+      "emule is the ego car.",
+      "There are 1 karts in the scene.",
+      "There are 8 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.3125,
+    "similarities": [
+      0.04345703125,
+      -0.12109375,
+      0.1572265625,
+      0.9296875,
+      0.9140625
+    ],
+    "correct_similarity": 0.9296875,
+    "predicted_similarity": 0.9296875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00072_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is minigolf.",
+      "amanda is the ego car.",
+      "There are 5 karts in the scene.",
+      "The track is tutorial.",
+      "The track is scotland."
+    ],
+    "correct_index": 1,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.35546875,
+    "similarities": [
+      0.130859375,
+      0.2392578125,
+      0.921875,
+      0.0712890625,
+      0.0849609375
+    ],
+    "correct_similarity": 0.2392578125,
+    "predicted_similarity": 0.921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000ab_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "amanda is in front of the ego car.",
+      "sara_the_racer is the ego car.",
+      "The track is fortmagma.",
+      "pidgin is the ego car.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.3359375,
+    "similarities": [
+      0.1025390625,
+      0.6796875,
+      0.1455078125,
+      -0.224609375,
+      -0.193359375
+    ],
+    "correct_similarity": 0.1025390625,
+    "predicted_similarity": 0.6796875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0009e_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "gnu is the ego car.",
+      "The track is scotland.",
+      "The track is sandtrack.",
+      "sara_the_wizard is in front of the ego car.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.30859375,
+    "similarities": [
+      0.5078125,
+      0.5390625,
+      0.380859375,
+      1.0078125,
+      0.271484375
+    ],
+    "correct_similarity": 1.0078125,
+    "predicted_similarity": 1.0078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000d1_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 6 karts in the scene.",
+      "kiki is the ego car.",
+      "There are 1 karts in the scene.",
+      "The track is tutorial.",
+      "There are 0 karts in the scene."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.259765625,
+    "similarities": [
+      0.8203125,
+      0.0869140625,
+      0.828125,
+      -0.0019989013671875,
+      0.78515625
+    ],
+    "correct_similarity": 0.828125,
+    "predicted_similarity": 0.828125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00077_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 5 karts in the scene.",
+      "konqi is the ego car.",
+      "The track is cocoa_temple.",
+      "The track is zengarden.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.40234375,
+    "similarities": [
+      0.9609375,
+      -0.2353515625,
+      -0.0101318359375,
+      0.055908203125,
+      0.05419921875
+    ],
+    "correct_similarity": -0.2353515625,
+    "predicted_similarity": 0.9609375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00073_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 7 karts in the scene.",
+      "wilber is the ego car.",
+      "The track is olivermath.",
+      "puffy is the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 4,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.392578125,
+    "similarities": [
+      0.8671875,
+      -0.15234375,
+      -0.07958984375,
+      -0.0751953125,
+      -0.03759765625
+    ],
+    "correct_similarity": -0.03759765625,
+    "predicted_similarity": 0.8671875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0009f_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "kiki is the ego car.",
+      "There are 0 karts in the scene.",
+      "emule is the ego car.",
+      "The track is zengarden.",
+      "The track is black_forest."
+    ],
+    "correct_index": 0,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.421875,
+    "similarities": [
+      -0.10888671875,
+      0.99609375,
+      0.0076904296875,
+      0.018310546875,
+      -0.232421875
+    ],
+    "correct_similarity": -0.10888671875,
+    "predicted_similarity": 0.99609375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000fc_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is candela_city.",
+      "kiki is behind the ego car.",
+      "sara_the_racer is the ego car.",
+      "The track is olivermath.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.322265625,
+    "similarities": [
+      0.1123046875,
+      0.244140625,
+      0.765625,
+      0.201171875,
+      -0.08251953125
+    ],
+    "correct_similarity": 0.244140625,
+    "predicted_similarity": 0.765625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000b4_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is scotland.",
+      "The track is snowtuxpeak.",
+      "adiumy is the ego car.",
+      "sara_the_wizard is behind the ego car.",
+      "The track is ravenbridge_mansion."
+    ],
+    "correct_index": 1,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.359375,
+    "similarities": [
+      0.3046875,
+      0.298828125,
+      0.2490234375,
+      1.0390625,
+      0.06396484375
+    ],
+    "correct_similarity": 0.298828125,
+    "predicted_similarity": 1.0390625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000c9_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 0 karts in the scene.",
+      "pidgin is the ego car.",
+      "adiumy is the ego car.",
+      "gnu is the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.33984375,
+    "similarities": [
+      1.0078125,
+      -0.1787109375,
+      -0.1337890625,
+      -0.006134033203125,
+      0.9609375
+    ],
+    "correct_similarity": -0.006134033203125,
+    "predicted_similarity": 1.0078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000b3_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is gran_paradiso_island.",
+      "There are 1 karts in the scene.",
+      "The track is tutorial.",
+      "The track is ravenbridge_mansion.",
+      "amanda is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.32421875,
+    "similarities": [
+      0.80859375,
+      0.14453125,
+      0.396484375,
+      -0.078125,
+      0.11328125
+    ],
+    "correct_similarity": 0.14453125,
+    "predicted_similarity": 0.80859375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000bd_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "amanda is the ego car.",
+      "There are 7 karts in the scene.",
+      "There are 4 karts in the scene.",
+      "tux is the ego car.",
+      "The track is black_forest."
+    ],
+    "correct_index": 0,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.30078125,
+    "similarities": [
+      0.19140625,
+      0.875,
+      0.88671875,
+      0.28515625,
+      -0.33984375
+    ],
+    "correct_similarity": 0.19140625,
+    "predicted_similarity": 0.88671875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00046_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 9 karts in the scene.",
+      "There are 1 karts in the scene.",
+      "amanda is the ego car.",
+      "adiumy is the ego car.",
+      "sara_the_wizard is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.314453125,
+    "similarities": [
+      0.203125,
+      0.279296875,
+      -0.09765625,
+      -0.322265625,
+      0.65234375
+    ],
+    "correct_similarity": 0.279296875,
+    "predicted_similarity": 0.65234375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00063_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "kiki is the ego car.",
+      "puffy is the ego car.",
+      "The track is tutorial.",
+      "The track is snowtuxpeak.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.28515625,
+    "similarities": [
+      0.09765625,
+      1.078125,
+      0.306640625,
+      0.80859375,
+      1.1171875
+    ],
+    "correct_similarity": 0.80859375,
+    "predicted_similarity": 1.1171875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000db_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "xue is the ego car.",
+      "konqi is the ego car.",
+      "amanda is the ego car.",
+      "The track is black_forest.",
+      "tux is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.2421875,
+    "similarities": [
+      1.0859375,
+      1.2421875,
+      1.0390625,
+      0.74609375,
+      1.078125
+    ],
+    "correct_similarity": 1.2421875,
+    "predicted_similarity": 1.2421875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000b8_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is black_forest.",
+      "There are 8 karts in the scene.",
+      "The track is gran_paradiso_island.",
+      "gavroche is the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.296875,
+    "similarities": [
+      -0.014404296875,
+      0.359375,
+      0.765625,
+      0.0986328125,
+      0.46484375
+    ],
+    "correct_similarity": 0.46484375,
+    "predicted_similarity": 0.765625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00015_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "adiumy is in front of the ego car.",
+      "The track is minigolf.",
+      "adiumy is right of the ego car.",
+      "puffy is the ego car.",
+      "The track is candela_city."
+    ],
+    "correct_index": 2,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.376953125,
+    "similarities": [
+      0.9765625,
+      0.1494140625,
+      0.240234375,
+      -0.033447265625,
+      -0.0172119140625
+    ],
+    "correct_similarity": 0.240234375,
+    "predicted_similarity": 0.9765625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00017_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "tux is the ego car.",
+      "There are 5 karts in the scene.",
+      "The track is gran_paradiso_island.",
+      "There are 7 karts in the scene.",
+      "konqi is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.3046875,
+    "similarities": [
+      0.306640625,
+      0.158203125,
+      0.76953125,
+      0.12109375,
+      0.2421875
+    ],
+    "correct_similarity": 0.2421875,
+    "predicted_similarity": 0.76953125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00001_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "kiki is the ego car.",
+      "pidgin is the ego car.",
+      "The track is olivermath.",
+      "There are 7 karts in the scene.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.34765625,
+    "similarities": [
+      0.19921875,
+      0.10791015625,
+      -0.06787109375,
+      0.87890625,
+      0.2099609375
+    ],
+    "correct_similarity": 0.19921875,
+    "predicted_similarity": 0.87890625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00018_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 4 karts in the scene.",
+      "The track is xr591.",
+      "amanda is the ego car.",
+      "The track is minigolf.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.33984375,
+    "similarities": [
+      0.93359375,
+      -0.1279296875,
+      0.291015625,
+      0.2158203125,
+      0.3828125
+    ],
+    "correct_similarity": 0.2158203125,
+    "predicted_similarity": 0.93359375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000eb_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "emule is right of the ego car.",
+      "pidgin is the ego car.",
+      "The track is abyss.",
+      "The track is xr591.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.349609375,
+    "similarities": [
+      1.046875,
+      -0.26953125,
+      -0.07373046875,
+      0.76171875,
+      0.373046875
+    ],
+    "correct_similarity": 1.046875,
+    "predicted_similarity": 1.046875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00037_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 5 karts in the scene.",
+      "There are 7 karts in the scene.",
+      "The track is hacienda.",
+      "The track is xr591.",
+      "The track is olivermath."
+    ],
+    "correct_index": 4,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.302734375,
+    "similarities": [
+      0.9921875,
+      0.99609375,
+      0.333984375,
+      0.020263671875,
+      0.09765625
+    ],
+    "correct_similarity": 0.09765625,
+    "predicted_similarity": 0.99609375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00057_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "nolok is the ego car.",
+      "sara_the_racer is in front of the ego car.",
+      "sara_the_racer is the ego car.",
+      "sara_the_racer is left of the ego car.",
+      "beastie is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.36328125,
+    "similarities": [
+      -0.0113525390625,
+      0.89453125,
+      0.1884765625,
+      0.275390625,
+      -0.2734375
+    ],
+    "correct_similarity": 0.1884765625,
+    "predicted_similarity": 0.89453125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00058_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is gran_paradiso_island.",
+      "There are 7 karts in the scene.",
+      "konqi is the ego car.",
+      "sara_the_wizard is right of the ego car.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.361328125,
+    "similarities": [
+      -0.099609375,
+      0.361328125,
+      0.439453125,
+      1.1015625,
+      0.353515625
+    ],
+    "correct_similarity": 1.1015625,
+    "predicted_similarity": 1.1015625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0007d_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "suzanne is the ego car.",
+      "There are 3 karts in the scene.",
+      "The track is ravenbridge_mansion.",
+      "There are 9 karts in the scene.",
+      "pidgin is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.265625,
+    "similarities": [
+      0.11865234375,
+      0.87109375,
+      0.73828125,
+      0.84375,
+      0.032470703125
+    ],
+    "correct_similarity": 0.73828125,
+    "predicted_similarity": 0.87109375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000de_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is hacienda.",
+      "There are 2 karts in the scene.",
+      "The track is minigolf.",
+      "The track is lighthouse.",
+      "sara_the_racer is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.3984375,
+    "similarities": [
+      0.146484375,
+      0.212890625,
+      0.1904296875,
+      0.05810546875,
+      1.125
+    ],
+    "correct_similarity": 0.212890625,
+    "predicted_similarity": 1.125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000e4_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is candela_city.",
+      "The track is snowmountain.",
+      "sara_the_wizard is the ego car.",
+      "pidgin is the ego car.",
+      "emule is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.341796875,
+    "similarities": [
+      0.076171875,
+      0.12451171875,
+      0.77734375,
+      -0.14453125,
+      0.1220703125
+    ],
+    "correct_similarity": 0.77734375,
+    "predicted_similarity": 0.77734375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00045_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is ravenbridge_mansion.",
+      "konqi is the ego car.",
+      "nolok is the ego car.",
+      "The track is cornfield_crossing.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.328125,
+    "similarities": [
+      0.4140625,
+      -0.3515625,
+      -0.224609375,
+      -0.55078125,
+      0.0225830078125
+    ],
+    "correct_similarity": 0.4140625,
+    "predicted_similarity": 0.4140625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000ba_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "gnu is the ego car.",
+      "The track is gran_paradiso_island.",
+      "The track is abyss.",
+      "The track is overworld.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.302734375,
+    "similarities": [
+      0.2578125,
+      0.76171875,
+      0.0830078125,
+      0.31640625,
+      0.150390625
+    ],
+    "correct_similarity": 0.76171875,
+    "predicted_similarity": 0.76171875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00029_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "beastie is the ego car.",
+      "puffy is the ego car.",
+      "wilber is the ego car.",
+      "There are 1 karts in the scene.",
+      "emule is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.453125,
+    "similarities": [
+      -0.1962890625,
+      -0.09423828125,
+      -0.2490234375,
+      1.125,
+      0.1923828125
+    ],
+    "correct_similarity": 1.125,
+    "predicted_similarity": 1.125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00068_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "There are 6 karts in the scene.",
+      "The track is candela_city.",
+      "konqi is the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.283203125,
+    "similarities": [
+      1.109375,
+      1.0546875,
+      0.09619140625,
+      -0.11669921875,
+      1.0234375
+    ],
+    "correct_similarity": 1.109375,
+    "predicted_similarity": 1.109375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00092_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is fortmagma.",
+      "puffy is the ego car.",
+      "The track is scotland.",
+      "The track is xr591.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.376953125,
+    "similarities": [
+      0.051513671875,
+      0.042724609375,
+      0.134765625,
+      -0.1025390625,
+      0.921875
+    ],
+    "correct_similarity": 0.921875,
+    "predicted_similarity": 0.921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00036_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is xr591.",
+      "The track is gran_paradiso_island.",
+      "The track is candela_city.",
+      "puffy is the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 0,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.34375,
+    "similarities": [
+      -0.11181640625,
+      0.796875,
+      0.1455078125,
+      0.1396484375,
+      0.042724609375
+    ],
+    "correct_similarity": -0.11181640625,
+    "predicted_similarity": 0.796875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000fa_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "There are 1 karts in the scene.",
+      "There are 7 karts in the scene.",
+      "sara_the_wizard is the ego car.",
+      "The track is overworld."
+    ],
+    "correct_index": 1,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.271484375,
+    "similarities": [
+      0.259765625,
+      0.34375,
+      0.25390625,
+      0.703125,
+      0.3359375
+    ],
+    "correct_similarity": 0.34375,
+    "predicted_similarity": 0.703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000dc_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "suzanne is the ego car.",
+      "nolok is the ego car.",
+      "beastie is right of the ego car.",
+      "beastie is left of the ego car.",
+      "amanda is left of the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.30859375,
+    "similarities": [
+      0.15625,
+      -0.1474609375,
+      1.0078125,
+      1.03125,
+      0.41796875
+    ],
+    "correct_similarity": 0.41796875,
+    "predicted_similarity": 1.03125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0000d_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "sara_the_racer is the ego car.",
+      "The track is sandtrack.",
+      "The track is hacienda.",
+      "konqi is the ego car.",
+      "The track is minigolf."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.31640625,
+    "similarities": [
+      0.7734375,
+      0.1787109375,
+      0.3125,
+      -0.10302734375,
+      0.1953125
+    ],
+    "correct_similarity": 0.7734375,
+    "predicted_similarity": 0.7734375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00053_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "gnu is right of the ego car.",
+      "The track is snowmountain.",
+      "There are 5 karts in the scene.",
+      "gnu is in front of the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.314453125,
+    "similarities": [
+      0.001220703125,
+      0.1875,
+      0.07958984375,
+      0.9296875,
+      0.984375
+    ],
+    "correct_similarity": 0.984375,
+    "predicted_similarity": 0.984375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0005d_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 6 karts in the scene.",
+      "adiumy is left of the ego car.",
+      "adiumy is the ego car.",
+      "beastie is in front of the ego car.",
+      "The track is overworld."
+    ],
+    "correct_index": 2,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.267578125,
+    "similarities": [
+      0.470703125,
+      0.095703125,
+      -0.248046875,
+      0.2041015625,
+      0.251953125
+    ],
+    "correct_similarity": -0.248046875,
+    "predicted_similarity": 0.470703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0009b_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "sara_the_wizard is behind the ego car.",
+      "nolok is right of the ego car.",
+      "There are 9 karts in the scene.",
+      "beastie is behind the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.30859375,
+    "similarities": [
+      0.80078125,
+      0.20703125,
+      0.259765625,
+      0.09130859375,
+      0.31640625
+    ],
+    "correct_similarity": 0.80078125,
+    "predicted_similarity": 0.80078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00011_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is fortmagma.",
+      "The track is cornfield_crossing.",
+      "There are 0 karts in the scene.",
+      "tux is right of the ego car.",
+      "There are 8 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.3046875,
+    "similarities": [
+      0.0164794921875,
+      -0.2216796875,
+      0.88671875,
+      0.32421875,
+      0.90625
+    ],
+    "correct_similarity": 0.32421875,
+    "predicted_similarity": 0.90625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00047_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is hacienda.",
+      "There are 3 karts in the scene.",
+      "sara_the_wizard is the ego car.",
+      "nolok is the ego car.",
+      "beastie is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.3203125,
+    "similarities": [
+      0.318359375,
+      0.330078125,
+      0.75,
+      0.0062255859375,
+      -0.3125
+    ],
+    "correct_similarity": -0.3125,
+    "predicted_similarity": 0.75
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0006c_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "nolok is the ego car.",
+      "There are 4 karts in the scene.",
+      "The track is lighthouse.",
+      "There are 1 karts in the scene.",
+      "The track is xr591."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.337890625,
+    "similarities": [
+      -0.20703125,
+      0.8359375,
+      -0.283203125,
+      0.85546875,
+      -0.30078125
+    ],
+    "correct_similarity": 0.85546875,
+    "predicted_similarity": 0.85546875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0002c_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "suzanne is the ego car.",
+      "The track is sandtrack.",
+      "sara_the_wizard is the ego car.",
+      "emule is the ego car.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 1,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.302734375,
+    "similarities": [
+      0.099609375,
+      0.109375,
+      0.69921875,
+      0.0634765625,
+      0.306640625
+    ],
+    "correct_similarity": 0.109375,
+    "predicted_similarity": 0.69921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00098_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is scotland.",
+      "kiki is the ego car.",
+      "The track is ravenbridge_mansion.",
+      "The track is snowmountain.",
+      "xue is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.3125,
+    "similarities": [
+      0.09130859375,
+      0.18359375,
+      0.75390625,
+      0.1015625,
+      0.255859375
+    ],
+    "correct_similarity": 0.18359375,
+    "predicted_similarity": 0.75390625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0007c_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 9 karts in the scene.",
+      "There are 8 karts in the scene.",
+      "The track is scotland.",
+      "The track is xr591.",
+      "The track is snowtuxpeak."
+    ],
+    "correct_index": 4,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.31640625,
+    "similarities": [
+      0.921875,
+      0.93359375,
+      0.1240234375,
+      -0.150390625,
+      -0.0059814453125
+    ],
+    "correct_similarity": -0.0059814453125,
+    "predicted_similarity": 0.93359375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0002f_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "The track is candela_city.",
+      "emule is the ego car.",
+      "gavroche is the ego car.",
+      "nolok is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.412109375,
+    "similarities": [
+      1.0703125,
+      0.1474609375,
+      0.1669921875,
+      -0.2109375,
+      0.00518798828125
+    ],
+    "correct_similarity": -0.2109375,
+    "predicted_similarity": 1.0703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00056_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "The track is snowmountain.",
+      "adiumy is the ego car.",
+      "The track is hacienda.",
+      "The track is minigolf."
+    ],
+    "correct_index": 4,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.3359375,
+    "similarities": [
+      0.89453125,
+      0.158203125,
+      0.24609375,
+      0.1494140625,
+      0.1884765625
+    ],
+    "correct_similarity": 0.1884765625,
+    "predicted_similarity": 0.89453125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000a8_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "gavroche is the ego car.",
+      "The track is cocoa_temple.",
+      "wilber is the ego car.",
+      "The track is abyss.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.412109375,
+    "similarities": [
+      -0.01806640625,
+      -0.1904296875,
+      -0.185546875,
+      -0.0859375,
+      0.9140625
+    ],
+    "correct_similarity": 0.9140625,
+    "predicted_similarity": 0.9140625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0004f_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "gnu is the ego car.",
+      "tux is the ego car.",
+      "The track is cocoa_temple.",
+      "There are 1 karts in the scene.",
+      "The track is xr591."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.4140625,
+    "similarities": [
+      0.0140380859375,
+      0.16015625,
+      0.00469970703125,
+      1.0859375,
+      -0.0098876953125
+    ],
+    "correct_similarity": 1.0859375,
+    "predicted_similarity": 1.0859375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000d8_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "wilber is the ego car.",
+      "kiki is the ego car.",
+      "The track is tutorial.",
+      "The track is black_forest.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 0,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.380859375,
+    "similarities": [
+      -0.1123046875,
+      0.1953125,
+      0.091796875,
+      -0.28125,
+      0.88671875
+    ],
+    "correct_similarity": -0.1123046875,
+    "predicted_similarity": 0.88671875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00031_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "emule is the ego car.",
+      "There are 0 karts in the scene.",
+      "hexley is the ego car.",
+      "There are 1 karts in the scene.",
+      "The track is cocoa_temple."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.3046875,
+    "similarities": [
+      0.11865234375,
+      0.85546875,
+      0.240234375,
+      0.89453125,
+      -0.2001953125
+    ],
+    "correct_similarity": 0.89453125,
+    "predicted_similarity": 0.89453125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000f1_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "gnu is the ego car.",
+      "The track is ravenbridge_mansion.",
+      "sara_the_wizard is the ego car.",
+      "The track is gran_paradiso_island.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.30859375,
+    "similarities": [
+      0.050537109375,
+      -0.12890625,
+      0.75390625,
+      0.69921875,
+      -0.17578125
+    ],
+    "correct_similarity": -0.17578125,
+    "predicted_similarity": 0.75390625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000e0_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "kiki is right of the ego car.",
+      "pidgin is the ego car.",
+      "There are 6 karts in the scene.",
+      "The track is volcano_island.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.39453125,
+    "similarities": [
+      -0.004730224609375,
+      -0.011474609375,
+      0.8203125,
+      -0.314453125,
+      -0.26171875
+    ],
+    "correct_similarity": -0.004730224609375,
+    "predicted_similarity": 0.8203125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000c2_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "xue is behind the ego car.",
+      "xue is right of the ego car.",
+      "The track is zengarden.",
+      "sara_the_racer is the ego car.",
+      "kiki is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.34765625,
+    "similarities": [
+      0.2353515625,
+      0.1630859375,
+      0.12109375,
+      0.87890625,
+      -0.0537109375
+    ],
+    "correct_similarity": 0.2353515625,
+    "predicted_similarity": 0.87890625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0008c_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "suzanne is the ego car.",
+      "tux is the ego car.",
+      "beastie is the ego car.",
+      "gnu is the ego car.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.3359375,
+    "similarities": [
+      1.1328125,
+      0.28125,
+      1.2421875,
+      0.158203125,
+      0.21484375
+    ],
+    "correct_similarity": 0.21484375,
+    "predicted_similarity": 1.2421875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0009a_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is tutorial.",
+      "konqi is the ego car.",
+      "The track is minigolf.",
+      "puffy is the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 0,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.349609375,
+    "similarities": [
+      0.1484375,
+      0.2138671875,
+      0.2353515625,
+      0.051025390625,
+      0.93359375
+    ],
+    "correct_similarity": 0.1484375,
+    "predicted_similarity": 0.93359375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00023_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "gnu is the ego car.",
+      "tux is the ego car.",
+      "The track is volcano_island.",
+      "There are 4 karts in the scene.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.314453125,
+    "similarities": [
+      0.1494140625,
+      0.30859375,
+      0.24609375,
+      1.078125,
+      1.125
+    ],
+    "correct_similarity": 1.125,
+    "predicted_similarity": 1.125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00080_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 4 karts in the scene.",
+      "The track is xr591.",
+      "gavroche is the ego car.",
+      "There are 7 karts in the scene.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.34765625,
+    "similarities": [
+      1.09375,
+      0.032958984375,
+      -0.279296875,
+      1.0546875,
+      -0.06982421875
+    ],
+    "correct_similarity": 0.032958984375,
+    "predicted_similarity": 1.09375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00083_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "pidgin is the ego car.",
+      "The track is sandtrack.",
+      "The track is ravenbridge_mansion.",
+      "gnu is behind the ego car.",
+      "The track is zengarden."
+    ],
+    "correct_index": 3,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.3203125,
+    "similarities": [
+      0.1259765625,
+      0.150390625,
+      0.75,
+      0.162109375,
+      0.0106201171875
+    ],
+    "correct_similarity": 0.162109375,
+    "predicted_similarity": 0.75
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00059_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "The track is cocoa_temple.",
+      "pidgin is the ego car.",
+      "The track is lighthouse.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.439453125,
+    "similarities": [
+      1.140625,
+      0.033203125,
+      -0.126953125,
+      -0.1669921875,
+      0.1982421875
+    ],
+    "correct_similarity": 1.140625,
+    "predicted_similarity": 1.140625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000cf_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is lighthouse.",
+      "The track is minigolf.",
+      "The track is candela_city.",
+      "The track is black_forest.",
+      "The track is scotland."
+    ],
+    "correct_index": 1,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.380859375,
+    "similarities": [
+      -0.1337890625,
+      -0.33984375,
+      0.6171875,
+      -0.4609375,
+      -0.2236328125
+    ],
+    "correct_similarity": -0.33984375,
+    "predicted_similarity": 0.6171875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00060_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "kiki is the ego car.",
+      "emule is the ego car.",
+      "gnu is the ego car.",
+      "The track is black_forest.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.22265625,
+    "similarities": [
+      1.125,
+      1.1328125,
+      1.1796875,
+      0.7265625,
+      1.1328125
+    ],
+    "correct_similarity": 0.7265625,
+    "predicted_similarity": 1.1796875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0001e_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "nolok is the ego car.",
+      "The track is lighthouse.",
+      "The track is abyss.",
+      "sara_the_racer is right of the ego car.",
+      "xue is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.359375,
+    "similarities": [
+      -0.06591796875,
+      -0.2060546875,
+      0.010986328125,
+      0.7890625,
+      0.142578125
+    ],
+    "correct_similarity": 0.7890625,
+    "predicted_similarity": 0.7890625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0003d_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is fortmagma.",
+      "There are 5 karts in the scene.",
+      "konqi is left of the ego car.",
+      "xue is left of the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 4,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.388671875,
+    "similarities": [
+      -0.0673828125,
+      0.94140625,
+      -0.1552734375,
+      0.283203125,
+      -0.10791015625
+    ],
+    "correct_similarity": -0.10791015625,
+    "predicted_similarity": 0.94140625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00082_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is zengarden.",
+      "The track is volcano_island.",
+      "The track is cornfield_crossing.",
+      "emule is the ego car.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.328125,
+    "similarities": [
+      0.0091552734375,
+      -0.220703125,
+      0.75390625,
+      0.043701171875,
+      0.400390625
+    ],
+    "correct_similarity": 0.75390625,
+    "predicted_similarity": 0.75390625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000d4_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 0 karts in the scene.",
+      "suzanne is the ego car.",
+      "The track is cornfield_crossing.",
+      "There are 5 karts in the scene.",
+      "The track is candela_city."
+    ],
+    "correct_index": 2,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.3125,
+    "similarities": [
+      0.921875,
+      0.1875,
+      -0.203125,
+      0.921875,
+      -0.020263671875
+    ],
+    "correct_similarity": -0.203125,
+    "predicted_similarity": 0.921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00074_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "hexley is the ego car.",
+      "There are 4 karts in the scene.",
+      "The track is abyss.",
+      "The track is black_forest.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.333984375,
+    "similarities": [
+      0.138671875,
+      1.078125,
+      0.072265625,
+      -0.103515625,
+      1.109375
+    ],
+    "correct_similarity": 1.109375,
+    "predicted_similarity": 1.109375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0003c_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "tux is the ego car.",
+      "There are 8 karts in the scene.",
+      "The track is snowtuxpeak.",
+      "The track is snowmountain.",
+      "sara_the_racer is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.3046875,
+    "similarities": [
+      0.0712890625,
+      0.26953125,
+      0.240234375,
+      0.11083984375,
+      0.734375
+    ],
+    "correct_similarity": 0.11083984375,
+    "predicted_similarity": 0.734375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000a5_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "gnu is in front of the ego car.",
+      "gnu is right of the ego car.",
+      "adiumy is behind the ego car.",
+      "There are 0 karts in the scene.",
+      "The track is xr591."
+    ],
+    "correct_index": 2,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.35546875,
+    "similarities": [
+      0.62109375,
+      0.0771484375,
+      0.10546875,
+      1.015625,
+      -0.036865234375
+    ],
+    "correct_similarity": 0.10546875,
+    "predicted_similarity": 1.015625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0003e_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is lighthouse.",
+      "The track is ravenbridge_mansion.",
+      "The track is black_forest.",
+      "sara_the_racer is the ego car.",
+      "The track is overworld."
+    ],
+    "correct_index": 2,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.345703125,
+    "similarities": [
+      -0.07861328125,
+      -0.10498046875,
+      -0.07861328125,
+      0.765625,
+      0.283203125
+    ],
+    "correct_similarity": -0.07861328125,
+    "predicted_similarity": 0.765625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0001c_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "konqi is the ego car.",
+      "The track is overworld.",
+      "kiki is the ego car.",
+      "suzanne is the ego car.",
+      "The track is minigolf."
+    ],
+    "correct_index": 0,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.419921875,
+    "similarities": [
+      0.064453125,
+      -0.00750732421875,
+      0.09326171875,
+      1.0390625,
+      -0.294921875
+    ],
+    "correct_similarity": 0.064453125,
+    "predicted_similarity": 1.0390625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00020_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "puffy is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "There are 7 karts in the scene.",
+      "amanda is the ego car.",
+      "There are 8 karts in the scene."
+    ],
+    "correct_index": 0,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.306640625,
+    "similarities": [
+      -0.28515625,
+      0.66796875,
+      0.291015625,
+      -0.00433349609375,
+      0.28515625
+    ],
+    "correct_similarity": -0.28515625,
+    "predicted_similarity": 0.66796875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0005c_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "The track is hacienda.",
+      "The track is abyss.",
+      "The track is ravenbridge_mansion.",
+      "tux is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.2333984375,
+    "similarities": [
+      0.21875,
+      0.412109375,
+      0.12109375,
+      0.45703125,
+      0.26953125
+    ],
+    "correct_similarity": 0.412109375,
+    "predicted_similarity": 0.45703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00070_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "kiki is the ego car.",
+      "The track is gran_paradiso_island.",
+      "The track is black_forest.",
+      "sara_the_wizard is the ego car.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.34375,
+    "similarities": [
+      0.1865234375,
+      0.765625,
+      -0.058349609375,
+      1.046875,
+      0.1494140625
+    ],
+    "correct_similarity": 0.1494140625,
+    "predicted_similarity": 1.046875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0008b_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "hexley is the ego car.",
+      "The track is gran_paradiso_island.",
+      "sara_the_wizard is right of the ego car.",
+      "The track is volcano_island.",
+      "beastie is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.37890625,
+    "similarities": [
+      0.041748046875,
+      -0.0791015625,
+      0.7734375,
+      -0.1923828125,
+      -0.287109375
+    ],
+    "correct_similarity": 0.7734375,
+    "predicted_similarity": 0.7734375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00050_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is black_forest.",
+      "The track is snowmountain.",
+      "wilber is the ego car.",
+      "amanda is the ego car.",
+      "The track is candela_city."
+    ],
+    "correct_index": 0,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.375,
+    "similarities": [
+      -0.466796875,
+      -0.1796875,
+      1.0625,
+      0.34375,
+      0.66796875
+    ],
+    "correct_similarity": -0.466796875,
+    "predicted_similarity": 1.0625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000ad_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "There are 8 karts in the scene.",
+      "The track is ravenbridge_mansion.",
+      "The track is volcano_island.",
+      "The track is scotland."
+    ],
+    "correct_index": 2,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.32421875,
+    "similarities": [
+      0.007568359375,
+      0.90625,
+      0.76171875,
+      -0.1513671875,
+      0.1328125
+    ],
+    "correct_similarity": 0.76171875,
+    "predicted_similarity": 0.90625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0002e_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "nolok is the ego car.",
+      "There are 0 karts in the scene.",
+      "The track is tutorial.",
+      "The track is minigolf."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.3046875,
+    "similarities": [
+      0.93359375,
+      -0.0634765625,
+      0.89453125,
+      0.150390625,
+      0.2138671875
+    ],
+    "correct_similarity": 0.93359375,
+    "predicted_similarity": 0.93359375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000b9_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is hacienda.",
+      "The track is abyss.",
+      "gavroche is the ego car.",
+      "The track is tutorial.",
+      "gnu is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.228515625,
+    "similarities": [
+      0.279296875,
+      0.05322265625,
+      0.3125,
+      0.25390625,
+      -0.04541015625
+    ],
+    "correct_similarity": 0.279296875,
+    "predicted_similarity": 0.3125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00090_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "gnu is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "The track is abyss.",
+      "beastie is the ego car.",
+      "puffy is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.3515625,
+    "similarities": [
+      0.072265625,
+      0.74609375,
+      0.154296875,
+      -0.228515625,
+      -0.1630859375
+    ],
+    "correct_similarity": 0.072265625,
+    "predicted_similarity": 0.74609375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0002a_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "sara_the_racer is the ego car.",
+      "The track is black_forest.",
+      "There are 1 karts in the scene.",
+      "The track is candela_city.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 2,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.404296875,
+    "similarities": [
+      1.1171875,
+      -0.0751953125,
+      0.1513671875,
+      0.1962890625,
+      0.189453125
+    ],
+    "correct_similarity": 0.1513671875,
+    "predicted_similarity": 1.1171875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000b5_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "wilber is the ego car.",
+      "There are 6 karts in the scene.",
+      "emule is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 0,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.318359375,
+    "similarities": [
+      0.1787109375,
+      0.1064453125,
+      0.154296875,
+      0.259765625,
+      0.80078125
+    ],
+    "correct_similarity": 0.1787109375,
+    "predicted_similarity": 0.80078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0008e_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is snowmountain.",
+      "tux is the ego car.",
+      "hexley is the ego car.",
+      "The track is fortmagma.",
+      "There are 7 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.353515625,
+    "similarities": [
+      0.0228271484375,
+      0.296875,
+      0.259765625,
+      -0.06298828125,
+      0.921875
+    ],
+    "correct_similarity": -0.06298828125,
+    "predicted_similarity": 0.921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000c0_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is zengarden.",
+      "konqi is the ego car.",
+      "suzanne is the ego car.",
+      "The track is cornfield_crossing.",
+      "beastie is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.31640625,
+    "similarities": [
+      0.048583984375,
+      -0.12451171875,
+      0.416015625,
+      0.75390625,
+      0.13671875
+    ],
+    "correct_similarity": 0.416015625,
+    "predicted_similarity": 0.75390625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000d6_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "nolok is the ego car.",
+      "kiki is the ego car.",
+      "The track is overworld.",
+      "The track is zengarden.",
+      "kiki is left of the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.328125,
+    "similarities": [
+      0.09033203125,
+      -0.1337890625,
+      0.2119140625,
+      0.08544921875,
+      0.73828125
+    ],
+    "correct_similarity": -0.1337890625,
+    "predicted_similarity": 0.73828125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00041_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "konqi is the ego car.",
+      "adiumy is in front of the ego car.",
+      "amanda is the ego car.",
+      "The track is volcano_island.",
+      "The track is ravenbridge_mansion."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.283203125,
+    "similarities": [
+      -0.2138671875,
+      0.5859375,
+      0.115234375,
+      0.07763671875,
+      0.41796875
+    ],
+    "correct_similarity": 0.5859375,
+    "predicted_similarity": 0.5859375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000dd_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is hacienda.",
+      "The track is zengarden.",
+      "hexley is the ego car.",
+      "There are 5 karts in the scene.",
+      "emule is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.353515625,
+    "similarities": [
+      0.1015625,
+      -0.07763671875,
+      0.318359375,
+      0.9296875,
+      0.1904296875
+    ],
+    "correct_similarity": 0.1904296875,
+    "predicted_similarity": 0.9296875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000c4_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "beastie is the ego car.",
+      "The track is snowtuxpeak.",
+      "The track is gran_paradiso_island.",
+      "There are 7 karts in the scene.",
+      "The track is minigolf."
+    ],
+    "correct_index": 1,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.30859375,
+    "similarities": [
+      0.228515625,
+      0.279296875,
+      0.765625,
+      0.0751953125,
+      0.1669921875
+    ],
+    "correct_similarity": 0.279296875,
+    "predicted_similarity": 0.765625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00014_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "gavroche is the ego car.",
+      "There are 0 karts in the scene.",
+      "sara_the_wizard is the ego car.",
+      "The track is cornfield_crossing.",
+      "The track is olivermath."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.38671875,
+    "similarities": [
+      0.390625,
+      0.1015625,
+      1.078125,
+      0.0145263671875,
+      0.052978515625
+    ],
+    "correct_similarity": 1.078125,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00022_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "The track is ravenbridge_mansion.",
+      "The track is gran_paradiso_island.",
+      "The track is volcano_island.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.326171875,
+    "similarities": [
+      0.283203125,
+      -0.11181640625,
+      0.71875,
+      -0.0810546875,
+      0.087890625
+    ],
+    "correct_similarity": 0.087890625,
+    "predicted_similarity": 0.71875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0004c_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is overworld.",
+      "The track is black_forest.",
+      "amanda is the ego car.",
+      "There are 4 karts in the scene.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.30078125,
+    "similarities": [
+      0.30078125,
+      -0.2138671875,
+      0.28515625,
+      0.9296875,
+      0.94921875
+    ],
+    "correct_similarity": 0.94921875,
+    "predicted_similarity": 0.94921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000be_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 6 karts in the scene.",
+      "The track is hacienda.",
+      "The track is olivermath.",
+      "sara_the_wizard is right of the ego car.",
+      "sara_the_wizard is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.37890625,
+    "similarities": [
+      0.306640625,
+      0.283203125,
+      0.10693359375,
+      1.0859375,
+      0.0576171875
+    ],
+    "correct_similarity": 0.0576171875,
+    "predicted_similarity": 1.0859375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000f6_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 9 karts in the scene.",
+      "The track is candela_city.",
+      "There are 1 karts in the scene.",
+      "There are 2 karts in the scene.",
+      "gnu is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.2578125,
+    "similarities": [
+      0.80859375,
+      -0.035400390625,
+      0.83984375,
+      0.8515625,
+      0.1875
+    ],
+    "correct_similarity": 0.83984375,
+    "predicted_similarity": 0.8515625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00038_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is cocoa_temple.",
+      "wilber is the ego car.",
+      "kiki is the ego car.",
+      "sara_the_racer is the ego car.",
+      "emule is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.353515625,
+    "similarities": [
+      -0.05078125,
+      -0.1865234375,
+      -0.10791015625,
+      0.7109375,
+      0.04833984375
+    ],
+    "correct_similarity": -0.1865234375,
+    "predicted_similarity": 0.7109375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00087_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "The track is ravenbridge_mansion.",
+      "wilber is the ego car.",
+      "There are 6 karts in the scene.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.275390625,
+    "similarities": [
+      1.1796875,
+      0.52734375,
+      -0.1982421875,
+      1.125,
+      1.0859375
+    ],
+    "correct_similarity": 1.1796875,
+    "predicted_similarity": 1.1796875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00069_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "There are 2 karts in the scene.",
+      "There are 1 karts in the scene.",
+      "adiumy is the ego car.",
+      "The track is snowmountain."
+    ],
+    "correct_index": 2,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.298828125,
+    "similarities": [
+      0.058837890625,
+      0.9765625,
+      0.95703125,
+      0.3046875,
+      0.1806640625
+    ],
+    "correct_similarity": 0.95703125,
+    "predicted_similarity": 0.9765625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00091_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is cocoa_temple.",
+      "There are 1 karts in the scene.",
+      "The track is snowtuxpeak.",
+      "The track is cornfield_crossing.",
+      "kiki is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.380859375,
+    "similarities": [
+      -0.142578125,
+      0.875,
+      -0.01177978515625,
+      -0.181640625,
+      0.201171875
+    ],
+    "correct_similarity": 0.875,
+    "predicted_similarity": 0.875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000f2_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is abyss.",
+      "nolok is the ego car.",
+      "sara_the_racer is in front of the ego car.",
+      "konqi is left of the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.337890625,
+    "similarities": [
+      0.2890625,
+      0.28515625,
+      1.0546875,
+      0.408203125,
+      0.369140625
+    ],
+    "correct_similarity": 0.408203125,
+    "predicted_similarity": 1.0546875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000b1_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 7 karts in the scene.",
+      "wilber is the ego car.",
+      "The track is ravenbridge_mansion.",
+      "The track is black_forest.",
+      "The track is cornfield_crossing."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.349609375,
+    "similarities": [
+      0.94921875,
+      -0.07861328125,
+      0.81640625,
+      -0.28125,
+      -0.1298828125
+    ],
+    "correct_similarity": -0.28125,
+    "predicted_similarity": 0.94921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0001d_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is zengarden.",
+      "gavroche is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "There are 1 karts in the scene.",
+      "The track is snowtuxpeak."
+    ],
+    "correct_index": 3,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.345703125,
+    "similarities": [
+      0.2138671875,
+      0.390625,
+      1.0078125,
+      0.1455078125,
+      0.28515625
+    ],
+    "correct_similarity": 0.1455078125,
+    "predicted_similarity": 1.0078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000da_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "gnu is the ego car.",
+      "pidgin is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "The track is hacienda."
+    ],
+    "correct_index": 4,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.298828125,
+    "similarities": [
+      0.46484375,
+      0.08203125,
+      -0.1201171875,
+      0.74609375,
+      0.333984375
+    ],
+    "correct_similarity": 0.333984375,
+    "predicted_similarity": 0.74609375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0007a_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is overworld.",
+      "The track is fortmagma.",
+      "kiki is the ego car.",
+      "gavroche is the ego car.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.41796875,
+    "similarities": [
+      0.240234375,
+      0.08837890625,
+      -0.0081787109375,
+      -0.296875,
+      1.078125
+    ],
+    "correct_similarity": 1.078125,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00034_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "tux is the ego car.",
+      "There are 9 karts in the scene.",
+      "The track is volcano_island.",
+      "There are 1 karts in the scene.",
+      "puffy is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.33984375,
+    "similarities": [
+      0.19921875,
+      1.1171875,
+      0.1142578125,
+      1.171875,
+      -0.126953125
+    ],
+    "correct_similarity": 1.171875,
+    "predicted_similarity": 1.171875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0005b_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "xue is the ego car.",
+      "The track is gran_paradiso_island.",
+      "There are 8 karts in the scene.",
+      "wilber is left of the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.30859375,
+    "similarities": [
+      0.2265625,
+      0.05224609375,
+      0.671875,
+      0.2138671875,
+      -0.1650390625
+    ],
+    "correct_similarity": -0.1650390625,
+    "predicted_similarity": 0.671875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00008_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "puffy is the ego car.",
+      "The track is abyss.",
+      "emule is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.31640625,
+    "similarities": [
+      0.1748046875,
+      0.1552734375,
+      0.0830078125,
+      0.2392578125,
+      0.78125
+    ],
+    "correct_similarity": 0.78125,
+    "predicted_similarity": 0.78125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0006a_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is volcano_island.",
+      "gnu is the ego car.",
+      "tux is the ego car.",
+      "nolok is the ego car.",
+      "xue is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.298828125,
+    "similarities": [
+      0.84765625,
+      0.134765625,
+      0.25390625,
+      0.99609375,
+      0.447265625
+    ],
+    "correct_similarity": 0.134765625,
+    "predicted_similarity": 0.99609375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000a2_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is tutorial.",
+      "The track is zengarden.",
+      "There are 7 karts in the scene.",
+      "The track is olivermath.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.3203125,
+    "similarities": [
+      0.0654296875,
+      -0.08447265625,
+      0.8984375,
+      -0.0712890625,
+      0.93359375
+    ],
+    "correct_similarity": 0.93359375,
+    "predicted_similarity": 0.93359375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000d0_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is sandtrack.",
+      "tux is behind the ego car.",
+      "The track is cornfield_crossing.",
+      "The track is volcano_island.",
+      "The track is abyss."
+    ],
+    "correct_index": 1,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.32421875,
+    "similarities": [
+      0.08544921875,
+      0.50390625,
+      0.77734375,
+      -0.20703125,
+      -0.0361328125
+    ],
+    "correct_similarity": 0.50390625,
+    "predicted_similarity": 0.77734375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00013_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "The track is overworld.",
+      "hexley is the ego car.",
+      "The track is cornfield_crossing.",
+      "konqi is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.419921875,
+    "similarities": [
+      1.078125,
+      0.24609375,
+      0.142578125,
+      -0.29296875,
+      -0.1279296875
+    ],
+    "correct_similarity": -0.29296875,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0004e_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is olivermath.",
+      "There are 4 karts in the scene.",
+      "There are 5 karts in the scene.",
+      "sara_the_racer is the ego car.",
+      "The track is xr591."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.392578125,
+    "similarities": [
+      0.03857421875,
+      0.1357421875,
+      0.138671875,
+      1.0078125,
+      -0.09033203125
+    ],
+    "correct_similarity": 1.0078125,
+    "predicted_similarity": 1.0078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00055_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "gnu is the ego car.",
+      "The track is snowmountain.",
+      "The track is zengarden.",
+      "wilber is the ego car.",
+      "The track is scotland."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.3828125,
+    "similarities": [
+      0.1943359375,
+      -0.078125,
+      0.73828125,
+      1.15625,
+      -0.134765625
+    ],
+    "correct_similarity": 1.15625,
+    "predicted_similarity": 1.15625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000a0_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is overworld.",
+      "The track is sandtrack.",
+      "The track is scotland.",
+      "The track is gran_paradiso_island.",
+      "tux is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.296875,
+    "similarities": [
+      0.2421875,
+      0.043212890625,
+      0.1298828125,
+      0.63671875,
+      0.03271484375
+    ],
+    "correct_similarity": 0.03271484375,
+    "predicted_similarity": 0.63671875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0003f_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is ravenbridge_mansion.",
+      "The track is snowmountain.",
+      "wilber is the ego car.",
+      "The track is xr591.",
+      "puffy is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.3671875,
+    "similarities": [
+      0.796875,
+      0.09130859375,
+      -0.107421875,
+      -0.1650390625,
+      -0.0234375
+    ],
+    "correct_similarity": -0.1650390625,
+    "predicted_similarity": 0.796875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000cb_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "beastie is the ego car.",
+      "The track is olivermath.",
+      "There are 1 karts in the scene.",
+      "The track is cocoa_temple.",
+      "puffy is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.416015625,
+    "similarities": [
+      -0.150390625,
+      -0.150390625,
+      0.88671875,
+      -0.2119140625,
+      -0.1318359375
+    ],
+    "correct_similarity": 0.88671875,
+    "predicted_similarity": 0.88671875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00026_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is volcano_island.",
+      "The track is fortmagma.",
+      "The track is minigolf.",
+      "There are 5 karts in the scene.",
+      "The track is cocoa_temple."
+    ],
+    "correct_index": 1,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.40625,
+    "similarities": [
+      0.076171875,
+      0.07666015625,
+      0.064453125,
+      1.0703125,
+      0.0218505859375
+    ],
+    "correct_similarity": 0.07666015625,
+    "predicted_similarity": 1.0703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00000_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is candela_city.",
+      "The track is overworld.",
+      "The track is sandtrack.",
+      "The track is abyss.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.29296875,
+    "similarities": [
+      0.45703125,
+      0.1396484375,
+      -0.06689453125,
+      -0.115234375,
+      -0.1982421875
+    ],
+    "correct_similarity": -0.115234375,
+    "predicted_similarity": 0.45703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0006f_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is hacienda.",
+      "There are 4 karts in the scene.",
+      "kiki is the ego car.",
+      "The track is overworld.",
+      "The track is xr591."
+    ],
+    "correct_index": 3,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.33984375,
+    "similarities": [
+      0.244140625,
+      0.90625,
+      0.259765625,
+      0.318359375,
+      -0.1279296875
+    ],
+    "correct_similarity": 0.318359375,
+    "predicted_similarity": 0.90625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0000a_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is fortmagma.",
+      "konqi is the ego car.",
+      "kiki is the ego car.",
+      "hexley is the ego car.",
+      "The track is tutorial."
+    ],
+    "correct_index": 1,
+    "predicted_index": 1,
+    "is_correct": true,
+    "confidence": 0.259765625,
+    "similarities": [
+      0.7734375,
+      1.21875,
+      1.1171875,
+      1.1875,
+      0.08642578125
+    ],
+    "correct_similarity": 1.21875,
+    "predicted_similarity": 1.21875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000a4_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "wilber is the ego car.",
+      "There are 2 karts in the scene.",
+      "The track is volcano_island.",
+      "The track is overworld."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.3203125,
+    "similarities": [
+      0.88671875,
+      -0.201171875,
+      0.8984375,
+      -0.248046875,
+      0.1796875
+    ],
+    "correct_similarity": 0.8984375,
+    "predicted_similarity": 0.8984375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00002_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is zengarden.",
+      "There are 1 karts in the scene.",
+      "wilber is the ego car.",
+      "tux is the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.328125,
+    "similarities": [
+      0.1337890625,
+      1.09375,
+      -0.25390625,
+      0.2216796875,
+      1.0859375
+    ],
+    "correct_similarity": 1.0859375,
+    "predicted_similarity": 1.09375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00086_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "sara_the_wizard is the ego car.",
+      "The track is snowmountain.",
+      "konqi is the ego car.",
+      "The track is xr591.",
+      "xue is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.33203125,
+    "similarities": [
+      0.67578125,
+      0.07568359375,
+      -0.20703125,
+      0.041748046875,
+      0.034912109375
+    ],
+    "correct_similarity": 0.07568359375,
+    "predicted_similarity": 0.67578125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0001a_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "The track is overworld.",
+      "emule is the ego car.",
+      "The track is abyss.",
+      "The track is candela_city."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.408203125,
+    "similarities": [
+      1.0625,
+      0.1650390625,
+      0.05126953125,
+      -0.04345703125,
+      0.021728515625
+    ],
+    "correct_similarity": 1.0625,
+    "predicted_similarity": 1.0625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0000c_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is tutorial.",
+      "The track is xr591.",
+      "There are 1 karts in the scene.",
+      "There are 2 karts in the scene.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.275390625,
+    "similarities": [
+      0.2001953125,
+      0.02001953125,
+      1.140625,
+      1.125,
+      1.078125
+    ],
+    "correct_similarity": 1.125,
+    "predicted_similarity": 1.140625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000fb_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "The track is abyss.",
+      "The track is xr591.",
+      "The track is cornfield_crossing.",
+      "There are 4 karts in the scene."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.328125,
+    "similarities": [
+      0.90625,
+      -0.01104736328125,
+      -0.1591796875,
+      -0.2138671875,
+      0.8828125
+    ],
+    "correct_similarity": 0.90625,
+    "predicted_similarity": 0.90625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00067_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 8 karts in the scene.",
+      "The track is overworld.",
+      "gavroche is the ego car.",
+      "There are 1 karts in the scene.",
+      "The track is minigolf."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.29296875,
+    "similarities": [
+      0.96875,
+      0.30078125,
+      0.1787109375,
+      0.984375,
+      0.23046875
+    ],
+    "correct_similarity": 0.984375,
+    "predicted_similarity": 0.984375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00032_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is zengarden.",
+      "The track is sandtrack.",
+      "xue is the ego car.",
+      "The track is fortmagma.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.40234375,
+    "similarities": [
+      0.1728515625,
+      0.1455078125,
+      0.263671875,
+      0.15234375,
+      1.171875
+    ],
+    "correct_similarity": 1.171875,
+    "predicted_similarity": 1.171875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00061_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is candela_city.",
+      "The track is volcano_island.",
+      "The track is snowmountain.",
+      "puffy is behind the ego car.",
+      "There are 8 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.365234375,
+    "similarities": [
+      0.0006256103515625,
+      -0.1767578125,
+      0.1640625,
+      0.341796875,
+      0.93359375
+    ],
+    "correct_similarity": 0.341796875,
+    "predicted_similarity": 0.93359375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0006d_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is sandtrack.",
+      "adiumy is the ego car.",
+      "The track is minigolf.",
+      "The track is lighthouse.",
+      "The track is xr591."
+    ],
+    "correct_index": 4,
+    "predicted_index": 4,
+    "is_correct": true,
+    "confidence": 0.41796875,
+    "similarities": [
+      0.025390625,
+      -0.1630859375,
+      -0.0703125,
+      -0.2001953125,
+      0.95703125
+    ],
+    "correct_similarity": 0.95703125,
+    "predicted_similarity": 0.95703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00016_07_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is lighthouse.",
+      "The track is gran_paradiso_island.",
+      "sara_the_racer is the ego car.",
+      "xue is the ego car.",
+      "konqi is the ego car."
+    ],
+    "correct_index": 1,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.33203125,
+    "similarities": [
+      0.01226806640625,
+      0.71484375,
+      1.0078125,
+      0.193359375,
+      0.2080078125
+    ],
+    "correct_similarity": 0.71484375,
+    "predicted_similarity": 1.0078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000e2_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is xr591.",
+      "The track is cornfield_crossing.",
+      "gavroche is the ego car.",
+      "gavroche is left of the ego car.",
+      "xue is in front of the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.400390625,
+    "similarities": [
+      -0.248046875,
+      -0.16796875,
+      0.04931640625,
+      1.0703125,
+      0.52734375
+    ],
+    "correct_similarity": 1.0703125,
+    "predicted_similarity": 1.0703125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00039_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "nolok is left of the ego car.",
+      "pidgin is the ego car.",
+      "There are 1 karts in the scene.",
+      "puffy is left of the ego car.",
+      "amanda is left of the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.33203125,
+    "similarities": [
+      0.859375,
+      -0.1611328125,
+      1.125,
+      0.390625,
+      0.396484375
+    ],
+    "correct_similarity": 0.859375,
+    "predicted_similarity": 1.125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0000b_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 7 karts in the scene.",
+      "suzanne is the ego car.",
+      "There are 4 karts in the scene.",
+      "pidgin is behind the ego car.",
+      "kiki is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 2,
+    "is_correct": true,
+    "confidence": 0.298828125,
+    "similarities": [
+      0.8671875,
+      0.18359375,
+      0.88671875,
+      -0.0361328125,
+      0.142578125
+    ],
+    "correct_similarity": 0.88671875,
+    "predicted_similarity": 0.88671875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000fd_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is sandtrack.",
+      "The track is volcano_island.",
+      "sara_the_wizard is the ego car.",
+      "The track is xr591.",
+      "konqi is behind the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.333984375,
+    "similarities": [
+      0.12109375,
+      -0.09912109375,
+      0.7578125,
+      0.07080078125,
+      0.150390625
+    ],
+    "correct_similarity": 0.150390625,
+    "predicted_similarity": 0.7578125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0005e_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "There are 0 karts in the scene.",
+      "The track is volcano_island.",
+      "The track is xr591.",
+      "The track is black_forest."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.337890625,
+    "similarities": [
+      0.84765625,
+      0.796875,
+      -0.1865234375,
+      -0.23046875,
+      -0.3125
+    ],
+    "correct_similarity": 0.84765625,
+    "predicted_similarity": 0.84765625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00040_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "konqi is left of the ego car.",
+      "kiki is the ego car.",
+      "konqi is behind the ego car.",
+      "xue is in front of the ego car.",
+      "The track is lighthouse."
+    ],
+    "correct_index": 0,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.404296875,
+    "similarities": [
+      0.19921875,
+      0.185546875,
+      0.0791015625,
+      1.078125,
+      -0.20703125
+    ],
+    "correct_similarity": 0.19921875,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0006e_01_im.jpg",
+    "question": "",
+    "candidates": [
+      "beastie is the ego car.",
+      "emule is the ego car.",
+      "The track is abyss.",
+      "kiki is the ego car.",
+      "The track is minigolf."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.2431640625,
+    "similarities": [
+      0.17578125,
+      0.053466796875,
+      -0.0150146484375,
+      -0.0751953125,
+      -0.298828125
+    ],
+    "correct_similarity": -0.0751953125,
+    "predicted_similarity": 0.17578125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000c8_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is overworld.",
+      "sara_the_wizard is the ego car.",
+      "beastie is the ego car.",
+      "The track is cocoa_temple.",
+      "nolok is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.318359375,
+    "similarities": [
+      0.447265625,
+      0.73828125,
+      -0.255859375,
+      0.0869140625,
+      0.06005859375
+    ],
+    "correct_similarity": 0.447265625,
+    "predicted_similarity": 0.73828125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00049_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is snowmountain.",
+      "There are 0 karts in the scene.",
+      "The track is hacienda.",
+      "xue is the ego car.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 4,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.392578125,
+    "similarities": [
+      0.05322265625,
+      1.09375,
+      0.302734375,
+      0.228515625,
+      -0.06494140625
+    ],
+    "correct_similarity": -0.06494140625,
+    "predicted_similarity": 1.09375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000e3_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "sara_the_wizard is the ego car.",
+      "beastie is the ego car.",
+      "The track is zengarden.",
+      "The track is hacienda.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.373046875,
+    "similarities": [
+      1.0625,
+      0.279296875,
+      0.23046875,
+      0.1201171875,
+      0.15234375
+    ],
+    "correct_similarity": 0.15234375,
+    "predicted_similarity": 1.0625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000cd_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "amanda is the ego car.",
+      "sara_the_racer is the ego car.",
+      "hexley is the ego car.",
+      "kiki is the ego car.",
+      "The track is fortmagma."
+    ],
+    "correct_index": 2,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.373046875,
+    "similarities": [
+      0.1201171875,
+      1.046875,
+      0.306640625,
+      0.1806640625,
+      0.11181640625
+    ],
+    "correct_similarity": 0.306640625,
+    "predicted_similarity": 1.046875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00004_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is scotland.",
+      "tux is the ego car.",
+      "The track is black_forest.",
+      "sara_the_wizard is the ego car.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.38671875,
+    "similarities": [
+      0.17578125,
+      0.298828125,
+      -0.06591796875,
+      1.078125,
+      0.154296875
+    ],
+    "correct_similarity": 0.17578125,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000a7_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "adiumy is the ego car.",
+      "The track is cornfield_crossing.",
+      "The track is black_forest.",
+      "emule is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 2,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.33984375,
+    "similarities": [
+      0.12890625,
+      -0.03564453125,
+      -0.12109375,
+      0.197265625,
+      0.7734375
+    ],
+    "correct_similarity": -0.12109375,
+    "predicted_similarity": 0.7734375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00071_05_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is snowmountain.",
+      "The track is lighthouse.",
+      "The track is sandtrack.",
+      "xue is right of the ego car.",
+      "xue is behind the ego car."
+    ],
+    "correct_index": 3,
+    "predicted_index": 3,
+    "is_correct": true,
+    "confidence": 0.369140625,
+    "similarities": [
+      -0.09912109375,
+      -0.2734375,
+      -0.0162353515625,
+      0.90625,
+      0.447265625
+    ],
+    "correct_similarity": 0.90625,
+    "predicted_similarity": 0.90625
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00075_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "sara_the_wizard is right of the ego car.",
+      "The track is black_forest.",
+      "The track is scotland.",
+      "The track is cocoa_temple.",
+      "tux is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.357421875,
+    "similarities": [
+      1.0859375,
+      0.046630859375,
+      0.380859375,
+      0.134765625,
+      0.50390625
+    ],
+    "correct_similarity": 1.0859375,
+    "predicted_similarity": 1.0859375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/00033_04_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "sara_the_racer is in front of the ego car.",
+      "xue is the ego car.",
+      "pidgin is the ego car.",
+      "The track is zengarden."
+    ],
+    "correct_index": 0,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.34765625,
+    "similarities": [
+      0.203125,
+      0.828125,
+      0.1708984375,
+      -0.2734375,
+      0.10888671875
+    ],
+    "correct_similarity": 0.203125,
+    "predicted_similarity": 0.828125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000d3_00_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 8 karts in the scene.",
+      "wilber is the ego car.",
+      "The track is zengarden.",
+      "konqi is the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.310546875,
+    "similarities": [
+      0.8984375,
+      -0.1083984375,
+      -0.04345703125,
+      0.1640625,
+      0.875
+    ],
+    "correct_similarity": 0.1640625,
+    "predicted_similarity": 0.8984375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000f3_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "nolok is the ego car.",
+      "adiumy is right of the ego car.",
+      "tux is behind the ego car.",
+      "tux is the ego car.",
+      "pidgin is the ego car."
+    ],
+    "correct_index": 2,
+    "predicted_index": 1,
+    "is_correct": false,
+    "confidence": 0.373046875,
+    "similarities": [
+      0.09619140625,
+      1.0546875,
+      0.50390625,
+      0.2392578125,
+      -0.248046875
+    ],
+    "correct_similarity": 0.50390625,
+    "predicted_similarity": 1.0546875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000c7_08_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 4 karts in the scene.",
+      "hexley is the ego car.",
+      "puffy is the ego car.",
+      "The track is sandtrack.",
+      "The track is volcano_island."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.359375,
+    "similarities": [
+      0.83984375,
+      0.28515625,
+      -0.034423828125,
+      0.03955078125,
+      -0.2265625
+    ],
+    "correct_similarity": 0.03955078125,
+    "predicted_similarity": 0.83984375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000cc_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "The track is xr591.",
+      "The track is volcano_island.",
+      "adiumy is the ego car.",
+      "There are 8 karts in the scene.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 3,
+    "is_correct": false,
+    "confidence": 0.396484375,
+    "similarities": [
+      -0.2021484375,
+      -0.189453125,
+      0.251953125,
+      0.921875,
+      -0.11865234375
+    ],
+    "correct_similarity": -0.2021484375,
+    "predicted_similarity": 0.921875
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000f8_09_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "suzanne is the ego car.",
+      "There are 5 karts in the scene.",
+      "The track is fortmagma.",
+      "gnu is the ego car."
+    ],
+    "correct_index": 0,
+    "predicted_index": 0,
+    "is_correct": true,
+    "confidence": 0.3046875,
+    "similarities": [
+      0.9609375,
+      0.18359375,
+      0.921875,
+      -0.00970458984375,
+      0.228515625
+    ],
+    "correct_similarity": 0.9609375,
+    "predicted_similarity": 0.9609375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0004a_03_im.jpg",
+    "question": "",
+    "candidates": [
+      "emule is behind the ego car.",
+      "tux is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "The track is zengarden.",
+      "The track is cornfield_crossing."
+    ],
+    "correct_index": 0,
+    "predicted_index": 2,
+    "is_correct": false,
+    "confidence": 0.376953125,
+    "similarities": [
+      0.2158203125,
+      0.314453125,
+      1.078125,
+      0.2060546875,
+      0.01458740234375
+    ],
+    "correct_similarity": 0.2158203125,
+    "predicted_similarity": 1.078125
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/0008a_06_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "There are 3 karts in the scene.",
+      "nolok is the ego car.",
+      "The track is xr591.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 0,
+    "predicted_index": 4,
+    "is_correct": false,
+    "confidence": 0.27734375,
+    "similarities": [
+      0.427734375,
+      0.341796875,
+      -0.004730224609375,
+      0.0771484375,
+      0.65234375
+    ],
+    "correct_similarity": 0.427734375,
+    "predicted_similarity": 0.65234375
+  },
+  {
+    "image_path": "/Users/chisomokwor/Downloads/homework4_jul_22/data/valid/000c1_02_im.jpg",
+    "question": "",
+    "candidates": [
+      "There are 9 karts in the scene.",
+      "The track is olivermath.",
+      "There are 7 karts in the scene.",
+      "The track is black_forest.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3,
+    "predicted_index": 0,
+    "is_correct": false,
+    "confidence": 0.27734375,
+    "similarities": [
+      1.09375,
+      0.1298828125,
+      1.0625,
+      -0.140625,
+      1.0546875
+    ],
+    "correct_similarity": -0.140625,
+    "predicted_similarity": 1.09375
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-08-07T21:09:13.747465",
+  "checkpoint": "clip/checkpoint-1283",
+  "dataset": "valid_grader",
+  "accuracy": 0.2,
+  "total_samples": 200,
+  "correct_predictions": 40,
+  "incorrect_predictions": 160
+}

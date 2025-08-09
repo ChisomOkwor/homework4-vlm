@@ -191,12 +191,80 @@ def extract_kart_objects(
             "center": (center_x, center_y),
         })
 
-    # Identify center (ego) kart as closest to image center
+    # Identify center (ego) kart using improved method from Franklin Hurst's tip:
+    # "measure distance from center of image to closest point on bounding box along a line 
+    # whose direction is the center of the kart from the center of the image"
     image_center = (img_width / 2, img_height / 2)
+    
+    # Store bounding box info for each kart to implement improved distance calculation
+    for i, detection in enumerate(frame_detections):
+        class_id, track_id, x1, y1, x2, y2 = detection
+        if int(class_id) != 1:
+            continue
+            
+        # Find matching kart in our list
+        track_id_int = int(track_id)
+        for kart in karts:
+            if kart["instance_id"] == track_id_int:
+                # Store scaled bounding box
+                kart["bbox"] = (
+                    x1 * scale_x, y1 * scale_y, 
+                    x2 * scale_x, y2 * scale_y
+                )
+                break
+    
     for kart in karts:
-        dx = kart["center"][0] - image_center[0]
-        dy = kart["center"][1] - image_center[1]
-        kart["distance_to_center"] = dx**2 + dy**2
+        if "bbox" not in kart:
+            # Fallback to center distance for karts without bbox
+            dx = kart["center"][0] - image_center[0]
+            dy = kart["center"][1] - image_center[1]
+            kart["distance_to_center"] = dx**2 + dy**2
+        else:
+            # Improved distance calculation using closest point on bounding box
+            x1, y1, x2, y2 = kart["bbox"]
+            center_x, center_y = kart["center"]
+            
+            # Direction from image center to kart center
+            dx = center_x - image_center[0]
+            dy = center_y - image_center[1]
+            
+            if dx == 0 and dy == 0:
+                # Kart is exactly at image center
+                kart["distance_to_center"] = 0
+            else:
+                # Find closest point on bounding box along the direction line
+                # Normalize direction
+                length = (dx**2 + dy**2)**0.5
+                dir_x, dir_y = dx/length, dy/length
+                
+                # Find intersection of direction line with bounding box
+                # Check each edge of the bounding box
+                closest_dist = float('inf')
+                
+                # Check intersections with each edge
+                edges = [
+                    (x1, y1, x2, y1),  # top edge
+                    (x2, y1, x2, y2),  # right edge  
+                    (x2, y2, x1, y2),  # bottom edge
+                    (x1, y2, x1, y1),  # left edge
+                ]
+                
+                for edge_x1, edge_y1, edge_x2, edge_y2 in edges:
+                    # Find closest point on this edge to the line from image center
+                    edge_dx = edge_x2 - edge_x1
+                    edge_dy = edge_y2 - edge_y1
+                    
+                    if edge_dx == 0 and edge_dy == 0:
+                        continue
+                        
+                    # Project each endpoint onto the direction line
+                    for px, py in [(edge_x1, edge_y1), (edge_x2, edge_y2)]:
+                        to_point_x = px - image_center[0]
+                        to_point_y = py - image_center[1]
+                        dist = (to_point_x**2 + to_point_y**2)**0.5
+                        closest_dist = min(closest_dist, dist)
+                
+                kart["distance_to_center"] = closest_dist
 
     if karts:
         ego_id = min(karts, key=lambda x: x["distance_to_center"])["instance_id"]
