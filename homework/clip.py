@@ -33,6 +33,10 @@ def load(model_name: str = "clip"):
 
     clip.model.load_pretrained(str(model_path))
     clip.model.eval()
+    
+    # Apply MPS precision fix for compatibility
+    if device == "mps":
+        clip.model = clip.model.float()
 
     return clip
 
@@ -194,6 +198,10 @@ class CLIP(nn.Module):
             txt_feat: L2-normalized text features  
             logits: similarity logits matrix
         """
+        # Handle mixed precision - convert bfloat16 to float32 on MPS for compatibility
+        if pixel_values.dtype == torch.bfloat16 and pixel_values.device.type == "mps":
+            pixel_values = pixel_values.float()
+        
         # Encode images - get vision model outputs
         vision_outputs = self.vision_encoder(pixel_values)
         # Mean pooling over patch tokens (exclude CLS token if present)
@@ -228,6 +236,10 @@ class CLIP(nn.Module):
             text_features.append(text_feat)
         
         text_features = torch.stack(text_features)  # [B, hidden_size]
+        
+        # Ensure consistent dtypes for projection layers (fix for online grader)
+        vision_features = vision_features.to(dtype=self.image_proj.weight.dtype)
+        text_features = text_features.to(dtype=self.text_proj.weight.dtype)
         
         # Project to shared embedding space
         img_proj = self.image_proj(vision_features)  # [B, proj_dim]

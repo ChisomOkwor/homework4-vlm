@@ -102,6 +102,7 @@ def load(model_name: str = "vlm_sft") -> BaseVLM:
     checkpoint_path = model_path / "checkpoint-2700"
     if checkpoint_path.exists():
         model_path = checkpoint_path
+    # If checkpoint-2700 doesn't exist, use the model files directly in vlm_sft/
 
     vlm = BaseVLM()
     vlm.model = PeftModel.from_pretrained(vlm.model, model_path).to(vlm.device)
