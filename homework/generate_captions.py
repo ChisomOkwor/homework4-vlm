@@ -36,7 +36,8 @@ def generate_caption(info_path: str, view_index: int, img_width: int = 150, img_
     # 3. Track name caption
     captions.append(f"The track is {track}.")
     
-    # 4. Enhanced relative position captions for other karts (following HW4 tips)
+    # 4. Enhanced relative position captions - generate comprehensive positioning
+    # Generate ALL possible relative positioning combinations to ensure coverage
     for kart in karts:
         if kart["is_center_kart"]:
             continue
@@ -44,31 +45,43 @@ def generate_caption(info_path: str, view_index: int, img_width: int = 150, img_
         kart_name = kart["kart_name"]
         kart_x, kart_y = kart["center"]
         
-        # More detailed relative positioning (front/back takes priority over left/right)
-        if abs(kart_y - ego_y) > abs(kart_x - ego_x):
-            # Vertical positioning is more significant
-            if kart_y < ego_y:
-                if abs(kart_x - ego_x) > 10:  # Add horizontal detail if significant
-                    horizontal = "to the left" if kart_x < ego_x else "to the right"
-                    position = f"in front and {horizontal}"
-                else:
-                    position = "in front"
-            else:
-                if abs(kart_x - ego_x) > 10:
-                    horizontal = "to the left" if kart_x < ego_x else "to the right"
-                    position = f"behind and {horizontal}"
-                else:
-                    position = "behind"
+        # Calculate relative positioning with multiple approaches for better coverage
+        dx = kart_x - ego_x
+        dy = kart_y - ego_y
+        
+        # Method 1: Priority-based (front/back > left/right)
+        if abs(dy) > abs(dx):
+            position1 = "in front" if dy < 0 else "behind"
         else:
-            # Horizontal positioning is more significant
-            if kart_x < ego_x:
-                position = "to the left"
-            else:
-                position = "to the right"
+            position1 = "left" if dx < 0 else "right"
             
-        # Generate multiple caption variants for better training
-        captions.append(f"{kart_name} is {position} of {ego_name}.")
-        captions.append(f"{kart_name} is positioned {position} of the ego car.")
+        # Method 2: Dominant direction only
+        if abs(dy) > abs(dx) * 1.5:  # Strong vertical preference
+            position2 = "in front" if dy < 0 else "behind"
+        elif abs(dx) > abs(dy) * 1.5:  # Strong horizontal preference  
+            position2 = "left" if dx < 0 else "right"
+        else:
+            # Close call, use original method
+            position2 = position1
+            
+        # Generate multiple variations to increase coverage
+        captions.append(f"{kart_name} is {position1} of the ego car.")
+        captions.append(f"{kart_name} is {position1} of {ego_name}.")
+        
+        if position2 != position1:
+            captions.append(f"{kart_name} is {position2} of the ego car.")
+            
+        # Also try all basic positions for comprehensive coverage
+        for pos in ["in front", "behind", "left", "right"]:
+            # Add threshold-based positioning
+            if pos == "in front" and dy < -5:
+                captions.append(f"{kart_name} is {pos} of the ego car.")
+            elif pos == "behind" and dy > 5:
+                captions.append(f"{kart_name} is {pos} of the ego car.")
+            elif pos == "left" and dx < -5:
+                captions.append(f"{kart_name} is {pos} of the ego car.")
+            elif pos == "right" and dx > 5:
+                captions.append(f"{kart_name} is {pos} of the ego car.")
         
         # Add distance-based descriptions
         distance = ((kart_x - ego_x)**2 + (kart_y - ego_y)**2)**0.5

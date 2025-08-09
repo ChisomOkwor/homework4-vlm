@@ -1,0 +1,3 @@
+Best accuracy: 0.655000
+Step: 350
+Epoch: 0.25
